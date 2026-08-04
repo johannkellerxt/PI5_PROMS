@@ -85,9 +85,9 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"962a699590ea8c73ad09315b49764979">
 		["build_uid"] = <"9e0dabea-b5aa-4f94-b8cf-3da9dda2ec7d">
 		["ip_acknowledgements"] = <"The BREAST-Q Reconstruction module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast reconstruction surgery.">
-		["MD5-CAM-1.0.1"] = <"962a699590ea8c73ad09315b49764979">
 	>
 
 definition
@@ -1141,15 +1141,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2606] occurrences matches {0..1} matches {    -- Score - Physical Well-being Abdomen pre-operative
@@ -1158,15 +1154,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2607] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Abdomen pre-operative
@@ -1175,15 +1167,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2608] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Abdomen post-operative
@@ -1192,15 +1180,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2609] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Implant post-operative
@@ -1209,15 +1193,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2610] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast pre-operative
@@ -1226,15 +1206,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2611] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast post-operative
@@ -1243,15 +1219,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2612] occurrences matches {0..1} matches {    -- Score - Psychosocial Well-being
@@ -1260,15 +1232,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2613] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest pre-operative
@@ -1277,15 +1245,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2614] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest post-operative
@@ -1294,15 +1258,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2615] occurrences matches {0..1} matches {    -- Score - Sexual Well-being
@@ -1311,15 +1271,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2616] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Information Breast Surgeon post-operative
@@ -1328,15 +1284,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2617] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Surgeon post-operative
@@ -1345,15 +1297,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2618] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Medical Team  post-operative
@@ -1362,15 +1310,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2619] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Office Staff post-operative
@@ -1379,15 +1323,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2620] occurrences matches {0..1} matches {    -- Score - Adverse Effects of Radiation post-operative
@@ -1396,15 +1336,11 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 								}
