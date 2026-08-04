@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=8ad05ab3-188e-4196-9401-cc2fb5aca79e)
+archetype (adl_version=1.4; uid=07b41df0-843b-434c-aac7-dbba66ba6e75)
 	openEHR-EHR-OBSERVATION.ipss.v0
 
 concept
@@ -82,9 +82,9 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["build_uid"] = <"6d5001a7-c3a1-4135-ba0c-1048bb533707">
+		["build_uid"] = <"1e2bef6b-0849-46f8-8c2a-0f4a6531f826">
 		["ip_acknowledgements"] = <"Public domain">
-		["MD5-CAM-1.0.1"] = <"967356b3472048c38c86a3e42839ccf2">
+		["MD5-CAM-1.0.1"] = <"8faca0148d77e7b2223c6adc8c4a5557">
 	>
 
 definition
@@ -96,7 +96,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									CLUSTER[at9000] occurrences matches {0..1} matches {    -- *All information refers to the last 4 weeks. (de)
+									CLUSTER[at9000] occurrences matches {0..1} matches {    -- All information refers to the last 4 weeks.
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2000] occurrences matches {0..1} matches {    -- Over the past month, how often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?
 												value matches {
@@ -704,8 +704,8 @@ ontology
 					description = <"">
 				>
 				["at9000"] = <
-					text = <"*All information refers to the last 4 weeks. (de)">
-					description = <"*All information refers to the last 4 weeks. (de)">
+					text = <"All information refers to the last 4 weeks.">
+					description = <"All information refers to the last 4 weeks.">
 				>
 				["at0001"] = <
 					text = <"History">
