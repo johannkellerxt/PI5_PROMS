@@ -85,9 +85,9 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"70959cd329e29b7706c11d008182e1f7">
 		["build_uid"] = <"f28990cd-7160-4e9d-a8d2-8991ee257320">
 		["ip_acknowledgements"] = <"The BREAST-Q Mastectomy module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast cancer surgery, including mastectomy.">
-		["MD5-CAM-1.0.1"] = <"70959cd329e29b7706c11d008182e1f7">
 	>
 
 definition
@@ -710,7 +710,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -727,7 +727,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -744,7 +744,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -761,7 +761,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -778,7 +778,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -795,7 +795,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -812,7 +812,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -829,7 +829,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
@@ -846,7 +846,7 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"[g]">
+														units = <"1">
 														magnitude = <|0.0..100.0|>
 													>
 												>
