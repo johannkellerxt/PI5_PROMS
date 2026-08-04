@@ -83,9 +83,9 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"0cf14d4b6a2f52ea39385af84c9b925d">
 		["build_uid"] = <"9cc46d45-b954-4441-93a2-648b4df628b1">
 		["ip_acknowledgements"] = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña.">
-		["MD5-CAM-1.0.1"] = <"affafb2d88575c8fa878b1242b1d2e57">
 	>
 
 definition
@@ -148,19 +148,7 @@ definition
 									}
 									ELEMENT[at2030] occurrences matches {0..1} matches {    -- IIEF-5 SumScore
 										value matches {
-											C_DV_QUANTITY <
-												property = <[openehr::339]>
-												list = <
-													["1"] = <
-														units = <"[g]">
-														magnitude = <|5.0..25.0|>
-													>
-												>
-											>
-											DV_COUNT matches {
-												magnitude matches {|5..25|}
-											}
-											DV_TEXT matches {*}
+											DV_COUNT matches {*}
 										}
 									}
 								}
