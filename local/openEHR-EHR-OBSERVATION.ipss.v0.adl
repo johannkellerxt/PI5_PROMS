@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=a839f086-6fcc-474b-a5b4-dc967d2ced35)
+archetype (adl_version=1.4; uid=8ad05ab3-188e-4196-9401-cc2fb5aca79e)
 	openEHR-EHR-OBSERVATION.ipss.v0
 
 concept
@@ -38,53 +38,53 @@ language
 
 description
 	original_author = <
-		["date"] = <"2026-05-08">
-		["name"] = <"Johann Keller">
-		["organisation"] = <"x-tention Informationstechnologie AG">
-		["email"] = <"johann.keller@x-tention.ch">
+		["date"] = <"2015-05-31">
+		["name"] = <"Navin Ramachandran">
+		["organisation"] = <"UCLH">
+		["email"] = <"navinramachandran@nhs.net">
 	>
 	lifecycle_state = <"unmanaged">
-	other_contributors = <"Sol Fustinana, University Hospital Basel, Switzerland","Olha Nikolaieva, University Hospital Basel, Switzerland","Maren Diepenbruck, University Hospital Basel, Switzerland">
+	other_contributors = <"Navin Ramachandran, UCLH, United Kingdom","Vebjørn Arntzen, Oslo University Hospital, Norway","Silje Ljosland Bakke, Helse Vest IKT AS, Norway","SB Bhattacharyya, Sudisa Consultancy Services, India">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"Zur Erfassung der Bewertung und Punktzahl jedes der 13 Items der Delirium Observation Screening Scale (DOS) sowie der berechneten Gesamtpunktzahl.">
-			keywords = <"DOS, Delirium Observation Screening Scale, Delir, Delir-Screening, Pflegebeobachtung, Veränderter mentaler Status, Kognitive Beeinträchtigung", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Zur schichtbezogenen pflegerischen Beobachtung und zum Delir-Screening während der Routineversorgung. Jedes Item wird anhand des beobachteten Verhaltens bewertet; die Items 3, 8 und 9 werden umgekehrt gewertet. Die Summe der Itemwerte ergibt eine Gesamtpunktzahl von 0 bis 13. Ein Ergebnis von mindestens 3 Punkten gilt als positiver Screen und soll eine weiterführende Beurteilung, beispielsweise mit der Confusion Assessment Method (CAM), auslösen. Die DOS ist ein Screeninginstrument und stellt für sich allein keine Delirdiagnose.">
+			purpose = <"Zur Erfassung der Ergebnisse jedes Komponentenparameters sowie deren Gesamtsumme für den Internationalen Prostata-Symptom-Score (IPSS).">
+			keywords = <"I-PSS, IPSS, Internationaler Prostata-Symptom-Score, Prostata, Benigne Prostatahyperplasie, BPH, Untere Harnwegssymptome", ...>
+			copyright = <"© Clinical Models UK, openEHR Foundation">
+			use = <"Zur Erfassung der Ergebnisse der einzelnen Komponentenparameter und der Gesamtsumme des IPSS verwenden. Die sieben Symptomitems werden zu einer Gesamtpunktzahl von 0 bis 35 addiert. Das Lebensqualitäts-Item wird separat erfasst und nicht in den Symptomscore einbezogen.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record the rating and score for each of the 13 items of the Delirium Observation Screening Scale (DOS), together with the calculated total score.">
-			keywords = <"DOS, Delirium Observation Screening Scale, Delirium, Delirium screening, Nursing observation, Altered mental status, Cognitive impairment", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Use for shift-based nursing observation and delirium screening during routine care. Rate each item from observed behaviour; items 3, 8, and 9 are reverse scored. Sum the item scores to obtain a total from 0 to 13. A score of 3 or more is a positive screen and should prompt further assessment, such as the Confusion Assessment Method (CAM). The DOS is a screening instrument and does not by itself establish a diagnosis of delirium.">
+			purpose = <"To record the results for each component parameter and their total sum for the International Prostate Symptom Score (IPSS).">
+			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostate, Benign prostatic hyperplasia, BPH, Lower urinary tract symptoms", ...>
+			copyright = <"© Clinical Models UK, openEHR Foundation">
+			use = <"Use to record the results for each component parameter and their total sum for the IPSS. The seven symptom items are summed to produce a total score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
-			purpose = <"*To record the rating and score for each of the 13 items of the Delirium Observation Screening Scale (DOS), together with the calculated total score. (en)">
-			copyright = <"© openEHR Foundation test">
-			use = <"*Use for shift-based nursing observation and delirium screening during routine care. Rate each item from observed behaviour; items 3, 8, and 9 are reverse scored. Sum the item scores to obtain a total from 0 to 13. A score of 3 or more is a positive screen and should prompt further assessment, such as the Confusion Assessment Method (CAM). The DOS is a screening instrument and does not by itself establish a diagnosis of delirium. (en)">
+			purpose = <"*To record the results for each component parameter and their total sum for the International Prostate Symptom Score (IPSS). (en)">
+			copyright = <"© Clinical Models UK, openEHR Foundation">
+			use = <"*Use to record the results for each component parameter and their total sum for the IPSS. The seven symptom items are summed to produce a total score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score. (en)">
 		>
 		["fr"] = <
 			language = <[ISO_639-1::fr]>
-			purpose = <"Enregistrer l'évaluation et le score de chacun des 13 items de la Delirium Observation Screening Scale (DOS), ainsi que le score total calculé.">
-			keywords = <"DOS, Delirium Observation Screening Scale, Délirium, Dépistage du délirium, Observation infirmière, Altération de l'état mental, Troubles cognitifs", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Utiliser pour l'observation infirmière par période de travail et le dépistage du délirium pendant les soins habituels. Coter chaque item à partir du comportement observé; les items 3, 8 et 9 sont cotés en sens inverse. La somme des items donne un score total de 0 à 13. Un score d'au moins 3 constitue un dépistage positif et doit conduire à une évaluation complémentaire, par exemple avec la Confusion Assessment Method (CAM). La DOS est un instrument de dépistage et ne permet pas, à elle seule, de poser un diagnostic de délirium.">
+			purpose = <"Enregistrer les résultats de chaque paramètre composant ainsi que leur somme totale pour l'International Prostate Symptom Score (IPSS).">
+			keywords = <"I-PSS, IPSS, Score international des symptômes prostatiques, Prostate, Hyperplasie bénigne de la prostate, HBP, Symptômes des voies urinaires basses", ...>
+			copyright = <"© Clinical Models UK, openEHR Foundation">
+			use = <"Utiliser pour enregistrer les résultats de chaque paramètre composant et leur somme totale pour l'IPSS. Les sept items de symptômes sont additionnés pour obtenir un score total de 0 à 35. L'item de qualité de vie est enregistré séparément et n'est pas inclus dans le score des symptômes.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"[{'citation': 'Schuurmans MJ, Shortridge-Baggett LM, Duursma SA. The Delirium Observation Screening Scale: a screening instrument for delirium. Research and Theory for Nursing Practice. 2003;17(1):31-50. doi:10.1891/RTNP.17.1.31.53169.'}, {'citation': 'Gavinski K, Carnahan R, Weckmann M. Validation of the Delirium Observation Screening Scale in a hospitalized older population. Journal of Hospital Medicine. 2016;11(7):494-497. doi:10.1002/jhm.2580.'}, {'citation': 'Universitätsspital Basel, Klinische Pflegewissenschaft. Delirium Screening durch Beobachtung / Delirium Observation Screening Scale (DOS). Adaptiert von Schuurmans (2001), Variante 2.2. 2007.'}]">
-		["current_contact"] = <"">
+		["references"] = <"[{'citation': 'Derived from: I-PSS Prostate Score, Draft archetype [Internet]. Apperta UK, Apperta UK Clinical Knowledge Manager [cited: 2020-11-11].'}, {'citation': 'Badía X, García-Losa M, Dal-Ré R. Ten-language translation and harmonization of the International Prostate Symptom Score: developing a methodology for multinational clinical trials. European Urology. 1997;31(2):129-140. doi:10.1159/000474438.'}, {'citation': 'International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1.'}]">
+		["current_contact"] = <"Navin Ramachandran, UCLH, navinramachandran@nhs.net">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["build_uid"] = <"3f0e5c8d-88eb-4b06-9775-5cb84e57cd42">
-		["ip_acknowledgements"] = <"The Delirium Observation Screening Scale (DOS) was developed by M. J. Schuurmans, L. M. Shortridge-Baggett, and S. A. Duursma.">
-		["MD5-CAM-1.0.1"] = <"9781ee02821e44662cd2797e452eae66">
+		["build_uid"] = <"6d5001a7-c3a1-4135-ba0c-1048bb533707">
+		["ip_acknowledgements"] = <"Public domain">
+		["MD5-CAM-1.0.1"] = <"967356b3472048c38c86a3e42839ccf2">
 	>
 
 definition
@@ -213,7 +213,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"Die Delirium Observation Screening Scale (DOS) ist ein aus 13 Items bestehendes, beobachtungsbasiertes Screeninginstrument zur Erkennung von Anzeichen eines Delirs während der routinemässigen Pflege. Jedes Item wird mit 0 oder 1 Punkt bewertet; ein Gesamtergebnis von mindestens 3 Punkten gilt als positiver Delir-Screen und erfordert eine weiterführende Beurteilung.">
+					description = <"Der Internationale Prostata-Symptom-Score (IPSS) ist ein Bewertungsinstrument zur Erkennung, Beurteilung und Verlaufskontrolle von Symptomen einer benignen Prostatahyperplasie (BPH). Er umfasst sieben Symptomfragen und eine Frage zur Lebensqualität.">
 				>
 				["at2000"] = <
 					text = <"Wie oft hatten Sie das Gefühl, dass Ihre Blase nach dem Wasserlassen nicht ganz entleert war?">
@@ -469,7 +469,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"The Delirium Observation Screening Scale (DOS) is a 13-item, observation-based screening instrument designed to identify signs of delirium during routine nursing care. Each item is scored 0 or 1; a total score of 3 or more indicates a positive delirium screen and requires further assessment.">
+					description = <"The International Prostate Symptom Score (IPSS) is an assessment score used to screen for, diagnose, and track symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question.">
 				>
 				["at2000"] = <
 					text = <"Over the past month, how often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?">
@@ -725,7 +725,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"La Delirium Observation Screening Scale (DOS) est un instrument de dépistage observationnel en 13 items destiné à repérer les signes d'un délirium au cours des soins infirmiers habituels. Chaque item est coté 0 ou 1; un score total d'au moins 3 indique un dépistage positif du délirium et nécessite une évaluation complémentaire.">
+					description = <"L'International Prostate Symptom Score (IPSS) est un score d'évaluation utilisé pour le dépistage, le diagnostic et le suivi des symptômes associés à l'hyperplasie bénigne de la prostate (HBP). Il comprend sept questions sur les symptômes et une question sur la qualité de vie.">
 				>
 				["at2000"] = <
 					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
@@ -981,7 +981,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"*The Delirium Observation Screening Scale (DOS) is a 13-item, observation-based screening instrument designed to identify signs of delirium during routine nursing care. Each item is scored 0 or 1; a total score of 3 or more indicates a positive delirium screen and requires further assessment. (en)">
+					description = <"*The International Prostate Symptom Score (IPSS) is an assessment score used to screen for, diagnose, and track symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question. (en)">
 				>
 				["at2000"] = <
 					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
