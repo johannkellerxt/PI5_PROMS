@@ -85,9 +85,9 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"578f38a44885ceb2ba9ce4a4052412e4">
 		["build_uid"] = <"cda9592d-4cf9-41e6-91b5-1e287dc61629">
 		["ip_acknowledgements"] = <"The Breast-Q BCT module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast cancer treatment, including breast-conserving therapy.">
-		["MD5-CAM-1.0.1"] = <"25814fb0e97ebeacd04d0a9a54d6f8c5">
 	>
 
 definition
@@ -135,7 +135,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at9001] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
+									CLUSTER[at9002] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2020] occurrences matches {0..1} matches {    -- How you look in the mirror clothed?
 												value matches {
@@ -145,10 +145,6 @@ definition
 													4|[local::at2024]
 												}
 											}
-										}
-									}
-									CLUSTER[at9002] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
-										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2025] occurrences matches {0..1} matches {    -- The shape of your lumpectomy breast when you are wearing a bra?
 												value matches {
 													1|[local::at2026],
@@ -889,188 +885,133 @@ definition
 									ELEMENT[at2461] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast pre-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2462] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2463] occurrences matches {0..1} matches {    -- Score - Psychosocial Well-being
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2464] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest pre-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2465] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2466] occurrences matches {0..1} matches {    -- Score - Sexual Well-being
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2467] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Information Breast Surgeon post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2468] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Surgeon post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2469] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Medical Team  post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2470] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Office Staff post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2471] occurrences matches {0..1} matches {    -- Score - Adverse Effects of Radiation post-operative
 										value matches {
 											C_DV_QUANTITY <
-												property = <[openehr::339]>
+												property = <[openehr::507]>
 												list = <
 													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..100.0|>
+														units = <"1">
 													>
 												>
 											>
-											DV_COUNT matches {
-												magnitude matches {|0..100|}
-											}
-											DV_TEXT matches {*}
 										}
 									}
 								}
@@ -3010,11 +2951,6 @@ ontology
 				["at9000"] = <
 					text = <"Wenn Sie an Ihren Brustbereich denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden:">
 					description = <"Wenn Sie an Ihren Brustbereich denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden:">
-				>
-				["at9001"] = <
-					text = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.  Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
-					description = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.
-Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
 				>
 				["at9002"] = <
 					text = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.  Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
@@ -4993,10 +4929,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at9000"] = <
 					text = <"With your breast area in mind, in the past week, how satisfied or dissatisfied have you been with:">
 					description = <"With your breast area in mind, in the past week, how satisfied or dissatisfied have you been with:">
-				>
-				["at9001"] = <
-					text = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
-					description = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
 				>
 				["at9002"] = <
 					text = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
@@ -6979,11 +6911,6 @@ With your radiated breast(s) in mind, in the past week, how much have you been b
 					text = <"Les questions ci-dessous portent sur votre poitrine. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 					description = <"Les questions ci-dessous portent sur votre poitrine. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 				>
-				["at9001"] = <
-					text = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.  Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
-					description = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.
-Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
-				>
 				["at9002"] = <
 					text = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.  Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
 					description = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.
@@ -8961,10 +8888,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at9000"] = <
 					text = <"Pensando al tuo seno, o se hai avuto una mastectomia, nelle ultima settimana quanto soddisfatta o insoddisfatta ti sei sentita di:">
 					description = <"Pensando al tuo seno, o se hai avuto una mastectomia, nelle ultima settimana quanto soddisfatta o insoddisfatta ti sei sentita di:">
-				>
-				["at9001"] = <
-					text = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
-					description = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
 				>
 				["at9002"] = <
 					text = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
