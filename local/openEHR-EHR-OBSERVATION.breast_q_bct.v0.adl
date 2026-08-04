@@ -85,7 +85,7 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"578f38a44885ceb2ba9ce4a4052412e4">
+		["MD5-CAM-1.0.1"] = <"25814fb0e97ebeacd04d0a9a54d6f8c5">
 		["build_uid"] = <"cda9592d-4cf9-41e6-91b5-1e287dc61629">
 		["ip_acknowledgements"] = <"The Breast-Q BCT module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast cancer treatment, including breast-conserving therapy.">
 	>
@@ -135,7 +135,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at9002] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
+									CLUSTER[at9001] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2020] occurrences matches {0..1} matches {    -- How you look in the mirror clothed?
 												value matches {
@@ -145,6 +145,10 @@ definition
 													4|[local::at2024]
 												}
 											}
+										}
+									}
+									CLUSTER[at9002] occurrences matches {0..1} matches {    -- The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:
+										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2025] occurrences matches {0..1} matches {    -- The shape of your lumpectomy breast when you are wearing a bra?
 												value matches {
 													1|[local::at2026],
@@ -1114,7 +1118,6 @@ ontology
 				["at2020"] = <
 					text = <"Wie Sie bekleidet im Spiegel aussehen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2021"] = <
 					text = <"Sehr unzufrieden">
@@ -1135,7 +1138,6 @@ ontology
 				["at2025"] = <
 					text = <"Mit der Form Ihrer operierten Brust, wenn Sie einen BH tragen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2026"] = <
 					text = <"Sehr unzufrieden">
@@ -1156,7 +1158,6 @@ ontology
 				["at2030"] = <
 					text = <"Wie normal Sie sich in Ihren Kleidern fühlen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2031"] = <
 					text = <"Sehr unzufrieden">
@@ -1177,7 +1178,6 @@ ontology
 				["at2035"] = <
 					text = <"Enganliegende Kleidung tragen zu können?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2036"] = <
 					text = <"Sehr unzufrieden">
@@ -1198,7 +1198,6 @@ ontology
 				["at2040"] = <
 					text = <"Wie Ihre operierte Brust steht/hängt?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2041"] = <
 					text = <"Sehr unzufrieden">
@@ -1219,7 +1218,6 @@ ontology
 				["at2045"] = <
 					text = <"Wie gleichmäßig geformt Ihre operierte Brust aussieht?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2046"] = <
 					text = <"Sehr unzufrieden">
@@ -1240,7 +1238,6 @@ ontology
 				["at2050"] = <
 					text = <"Mit der Kontur (Umrisslinie) Ihrer operierten Brust?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2051"] = <
 					text = <"Sehr unzufrieden">
@@ -1261,7 +1258,6 @@ ontology
 				["at2055"] = <
 					text = <"Wie sich Ihre Brüste in der Grösse gleichen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2056"] = <
 					text = <"Sehr unzufrieden">
@@ -1282,7 +1278,6 @@ ontology
 				["at2060"] = <
 					text = <"Wie normal Ihre operierte Brust aussieht?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2061"] = <
 					text = <"Sehr unzufrieden">
@@ -1303,7 +1298,6 @@ ontology
 				["at2065"] = <
 					text = <"Wie gleich Ihre Brüste aussehen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2066"] = <
 					text = <"Sehr unzufrieden">
@@ -1324,7 +1318,6 @@ ontology
 				["at2070"] = <
 					text = <"Wie Sie unbekleidet im Spiegel aussehen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2071"] = <
 					text = <"Sehr unzufrieden">
@@ -2033,7 +2026,6 @@ ontology
 				["at2247"] = <
 					text = <"Über die eventuelle Notwendigkeit einer Strahlentherapie in Abhängigkeit des Operationsverfahrens (Brustentfernung vs. brusterhaltende Operation)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2248"] = <
 					text = <"Sehr unzufrieden">
@@ -2054,7 +2046,6 @@ ontology
 				["at2252"] = <
 					text = <"Über die alternativen Operationsverfahren, die Sie bei Brustkrebs haben (Brustentfernung vs. Brusterhaltende Operation)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2253"] = <
 					text = <"Sehr unzufrieden">
@@ -2075,7 +2066,6 @@ ontology
 				["at2257"] = <
 					text = <"Über die gleichen Überlebensraten der beiden Operationsverfahren (Brustentfernung vs. brusterhaltende Operation)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2258"] = <
 					text = <"Sehr unzufrieden">
@@ -2096,7 +2086,6 @@ ontology
 				["at2262"] = <
 					text = <"Zur Dauer des Heilungsprozesses und der Genesung?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2263"] = <
 					text = <"Sehr unzufrieden">
@@ -2117,7 +2106,6 @@ ontology
 				["at2267"] = <
 					text = <"Wie die weitere Behandlung aussieht, falls die entfernten Lymphknoten tumorbefallen sind?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2268"] = <
 					text = <"Sehr unzufrieden">
@@ -2138,7 +2126,6 @@ ontology
 				["at2272"] = <
 					text = <"Darüber, wie viel Schmerzen während der Genesung zu erwarten sind?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2273"] = <
 					text = <"Sehr unzufrieden">
@@ -2159,7 +2146,6 @@ ontology
 				["at2277"] = <
 					text = <"Über mögliche Komplikationen?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2278"] = <
 					text = <"Sehr unzufrieden">
@@ -2180,7 +2166,6 @@ ontology
 				["at2282"] = <
 					text = <"Über die gleiche Rückfallwahrscheinlichkeit der Krebserkrankung bei beiden Operationsverfahren (Brustentfernung vs. brusterhaltende Operation)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2283"] = <
 					text = <"Sehr unzufrieden">
@@ -2201,7 +2186,6 @@ ontology
 				["at2287"] = <
 					text = <"Darüber, wie Ihre Brust nach der brusterhaltenden Operation voraussichtlich aussehen wird?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2288"] = <
 					text = <"Sehr unzufrieden">
@@ -2222,7 +2206,6 @@ ontology
 				["at2292"] = <
 					text = <"Darüber, wie die Narben nach der brusterhaltender Operation aussehen könnten?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2293"] = <
 					text = <"Sehr unzufrieden">
@@ -2243,7 +2226,6 @@ ontology
 				["at2297"] = <
 					text = <"Darüber, welche Größe die Brust nach der brusterhaltende Operation voraussichtlich haben wird?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2298"] = <
 					text = <"Sehr unzufrieden">
@@ -2264,7 +2246,6 @@ ontology
 				["at2302"] = <
 					text = <"Darüber, welche Form die Brust nach der brusterhaltenden Operation voraussichtlich haben wird?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2303"] = <
 					text = <"Sehr unzufrieden">
@@ -2805,7 +2786,6 @@ ontology
 				["at2437"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust anders aussieht (z.B. zu dunkel oder zu hell)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2438"] = <
 					text = <"Überhaupt nicht">
@@ -2822,7 +2802,6 @@ ontology
 				["at2441"] = <
 					text = <"Die Bestrahlung Flecken auf der Haut Ihrer Brust hinterlassen hat (z.B. kleine sichtbare Blutgefäße)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2442"] = <
 					text = <"Überhaupt nicht">
@@ -2839,7 +2818,6 @@ ontology
 				["at2445"] = <
 					text = <"Die Haut der bestrahlten Brust sich trocken anfühlt?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2446"] = <
 					text = <"Überhaupt nicht">
@@ -2856,7 +2834,6 @@ ontology
 				["at2449"] = <
 					text = <"Die Haut der bestrahlten Brust empfindlich (sensibel) ist bei Berührung. (z.B. bei Temperaturwechsel wenn Sie duschen/baden)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2450"] = <
 					text = <"Überhaupt nicht">
@@ -2873,7 +2850,6 @@ ontology
 				["at2453"] = <
 					text = <"Die Haut der bestrahlten Brust sich ungewöhnlich dick (spröde, rau) anfühlt?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2454"] = <
 					text = <"Überhaupt nicht">
@@ -2890,7 +2866,6 @@ ontology
 				["at2457"] = <
 					text = <"Die Haut der bestrahlten Brust sich leicht gereizt anfühlt durch das Tragen von Kleidung?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2458"] = <
 					text = <"Überhaupt nicht">
@@ -2951,6 +2926,11 @@ ontology
 				["at9000"] = <
 					text = <"Wenn Sie an Ihren Brustbereich denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden:">
 					description = <"Wenn Sie an Ihren Brustbereich denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden:">
+				>
+				["at9001"] = <
+					text = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.  Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
+					description = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.
+Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
 				>
 				["at9002"] = <
 					text = <"Die folgenden Fragen beziehen sich auf Ihre Brust und ihre Brustkrebsbehandlung (mit Behandlung sind sowohl die brusterhaltende Operation als auch die Strahlentherapie gemeint). Falls Sie eine brusterhaltende Operation oder eine Strahlentherapie beider Brüste hatten, beantworten Sie die Fragen bitte hinsichtlich der Brust, mit der Sie weniger zufrieden sind.  Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der letzten Woche mit dem Folgenden?">
@@ -3092,7 +3072,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2020"] = <
 					text = <"How you look in the mirror clothed?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2021"] = <
 					text = <"Very dissatisfied">
@@ -3113,7 +3092,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2025"] = <
 					text = <"The shape of your lumpectomy breast when you are wearing a bra?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2026"] = <
 					text = <"Very dissatisfied">
@@ -3134,7 +3112,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2030"] = <
 					text = <"How normal you feel in your clothes?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2031"] = <
 					text = <"Very dissatisfied">
@@ -3155,7 +3132,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2035"] = <
 					text = <"Being able to wear clothing that is more fitted?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2036"] = <
 					text = <"Very dissatisfied">
@@ -3176,7 +3152,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2040"] = <
 					text = <"How your lumpectomy breast sits/hangs?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2041"] = <
 					text = <"Very dissatisfied">
@@ -3197,7 +3172,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2045"] = <
 					text = <"How smoothly shaped your lumpectomy breast looks?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2046"] = <
 					text = <"Very dissatisfied">
@@ -3218,7 +3192,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2050"] = <
 					text = <"The contour (outline) of your lumpectomy breast?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2051"] = <
 					text = <"Very dissatisfied">
@@ -3239,7 +3212,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2055"] = <
 					text = <"How equal in size your breasts are to each other?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2056"] = <
 					text = <"Very dissatisfied">
@@ -3260,7 +3232,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2060"] = <
 					text = <"How normal your lumpectomy breast looks?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2061"] = <
 					text = <"Very dissatisfied">
@@ -3281,7 +3252,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2065"] = <
 					text = <"How much your breasts look the same?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2066"] = <
 					text = <"Very dissatisfied">
@@ -3302,7 +3272,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2070"] = <
 					text = <"How you look in the mirror unclothed?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2071"] = <
 					text = <"Very dissatisfied">
@@ -4011,7 +3980,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2247"] = <
 					text = <"The possible need for radiation depending on the surgery you have (mastectomy vs lumpectomy)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2248"] = <
 					text = <"Very dissatisfied">
@@ -4032,7 +4000,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2252"] = <
 					text = <"The options you were given regarding types of breast cancer surgery (mastectomy vs lumpectomy)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2253"] = <
 					text = <"Very dissatisfied">
@@ -4053,7 +4020,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2257"] = <
 					text = <"How your survival would be the same with either type of surgery (mastectomy vs lumpectomy)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2258"] = <
 					text = <"Very dissatisfied">
@@ -4074,7 +4040,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2262"] = <
 					text = <"Healing and recovery time?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2263"] = <
 					text = <"Very dissatisfied">
@@ -4095,7 +4060,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2267"] = <
 					text = <"What your treatment plan would involve if the cancer is found in your lymph nodes?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2268"] = <
 					text = <"Very dissatisfied">
@@ -4116,7 +4080,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2272"] = <
 					text = <"How much pain to expect during recovery?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2273"] = <
 					text = <"Very dissatisfied">
@@ -4137,7 +4100,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2277"] = <
 					text = <"Possible complications?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2278"] = <
 					text = <"Very dissatisfied">
@@ -4158,7 +4120,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2282"] = <
 					text = <"How the chances that the cancer would come back would be the same with either type of surgery (mastectomy vs lumpectomy)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2283"] = <
 					text = <"Very dissatisfied">
@@ -4179,7 +4140,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2287"] = <
 					text = <"What you could expect your breasts to look like after surgery?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2288"] = <
 					text = <"Very dissatisfied">
@@ -4200,7 +4160,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2292"] = <
 					text = <"What the lumpectomy scars would look like?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2293"] = <
 					text = <"Very dissatisfied">
@@ -4221,7 +4180,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2297"] = <
 					text = <"What size you could expect your breast to be after lumpectomy surgery?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2298"] = <
 					text = <"Very dissatisfied">
@@ -4242,7 +4200,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2302"] = <
 					text = <"What shape you could expect your breast to be after lumpectomy surgery?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2303"] = <
 					text = <"Very dissatisfied">
@@ -4783,7 +4740,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2437"] = <
 					text = <"Your radiated breast skin looking different (e.g., too dark or too light)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2438"] = <
 					text = <"Not at all">
@@ -4800,7 +4756,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2441"] = <
 					text = <"Marks on your breast skin caused by radiation (e.g., small visible blood vessels)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2442"] = <
 					text = <"Not at all">
@@ -4817,7 +4772,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2445"] = <
 					text = <"Your radiated breast skin feeling dry?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2446"] = <
 					text = <"Not at all">
@@ -4834,7 +4788,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2449"] = <
 					text = <"Your radiated breast skin feeling sore (sensitive) when touched (e.g., changes in water temperature when you bathe/shower)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2450"] = <
 					text = <"Not at all">
@@ -4851,7 +4804,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2453"] = <
 					text = <"Your radiated breast skin feeling unnaturally thick (rough, tough) when you touch it?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2454"] = <
 					text = <"Not at all">
@@ -4868,7 +4820,6 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at2457"] = <
 					text = <"Your radiated breast skin feeling irritated by clothing that you wear?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2458"] = <
 					text = <"Not at all">
@@ -4929,6 +4880,10 @@ Wenn Sie an Ihre Brust denken, wie zufrieden oder unzufrieden waren Sie in der l
 				["at9000"] = <
 					text = <"With your breast area in mind, in the past week, how satisfied or dissatisfied have you been with:">
 					description = <"With your breast area in mind, in the past week, how satisfied or dissatisfied have you been with:">
+				>
+				["at9001"] = <
+					text = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
+					description = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
 				>
 				["at9002"] = <
 					text = <"The following questions are about your breasts and your breast cancer treatment (by treatment, we mean lumpectomy with or without radiation). If you have had a lumpectomy and radiation of both breasts, answer these questions thinking of the breast you are least satisfied with. With your breasts in mind, in the past week, how satisfied or dissatisfied have you been with:">
@@ -6911,6 +6866,11 @@ With your radiated breast(s) in mind, in the past week, how much have you been b
 					text = <"Les questions ci-dessous portent sur votre poitrine. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 					description = <"Les questions ci-dessous portent sur votre poitrine. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 				>
+				["at9001"] = <
+					text = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.  Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
+					description = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.
+Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
+				>
 				["at9002"] = <
 					text = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.  Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite ou insatisfaite au cours de la semaine dernière de:">
 					description = <"Les questions suivantes concernent votre poitrine et votre traitement contre le cancer du sein (cela comprend à la fois la chirurgie conservatrice et la radiothérapie). Si vous avez subi une chirurgie conservatrice ou une radiothérapie des deux seins, veuillez répondre aux questions en vous référant au sein qui vous satisfait le moins.
@@ -7051,7 +7011,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2020"] = <
 					text = <"Come ti vedi allo specchio vestita?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2021"] = <
 					text = <"Molto insoddisfatta">
@@ -7072,7 +7031,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2025"] = <
 					text = <"La forma del tuo seno sottoposto a quadrantectomia quando indossi il reggiseno?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2026"] = <
 					text = <"Molto insoddisfatta">
@@ -7093,7 +7051,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2030"] = <
 					text = <"Quanto ti senti normale indossando I tuoi abiti?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2031"] = <
 					text = <"Molto insoddisfatta">
@@ -7114,7 +7071,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2035"] = <
 					text = <"Essere in grado di indossare capi attillati?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2036"] = <
 					text = <"Molto insoddisfatta">
@@ -7135,7 +7091,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2040"] = <
 					text = <"Come pende il tuo seno operato?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2041"] = <
 					text = <"Molto insoddisfatta">
@@ -7156,7 +7111,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2045"] = <
 					text = <"Quanto appare morbida la forma del tuo seno dal lato dal lato della quadrantectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2046"] = <
 					text = <"Molto insoddisfatta">
@@ -7177,7 +7131,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2050"] = <
 					text = <"Il profilo del seno dal lato della quadrantectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2051"] = <
 					text = <"Molto insoddisfatta">
@@ -7198,7 +7151,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2055"] = <
 					text = <"Quanto sono uguali tra loro per dimensioni entrambi seni?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2056"] = <
 					text = <"Molto insoddisfatta">
@@ -7219,7 +7171,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2060"] = <
 					text = <"Quanto appare normale il tuo seno dal lato della quadrantectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2061"] = <
 					text = <"Molto insoddisfatta">
@@ -7240,7 +7191,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2065"] = <
 					text = <"Quanto sembrano uguali le due mammelle?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2066"] = <
 					text = <"Molto insoddisfatta">
@@ -7261,7 +7211,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2070"] = <
 					text = <"Come ti vedi allo specchio senza vestiti?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2071"] = <
 					text = <"Molto insoddisfatta">
@@ -7970,7 +7919,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2247"] = <
 					text = <"La possibile necessità di eseguire la radioterapia in base all’intervento che devi eseguire (mastectomia/quadrantectomia)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2248"] = <
 					text = <"Molto insoddisfatta">
@@ -7991,7 +7939,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2252"] = <
 					text = <"Le opzioni che ti sono state offerte riguardo il tipo di intervento chirurgico (mastectomia vs quadrantectomia)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2253"] = <
 					text = <"Molto insoddisfatta">
@@ -8012,7 +7959,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2257"] = <
 					text = <"Quanto equivalente sarebbe stata la tua sopravvivenza con ciascun tipo di chirurgia (mastectomia vs quadrantectomia)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2258"] = <
 					text = <"Molto insoddisfatta">
@@ -8033,7 +7979,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2262"] = <
 					text = <"Tempo di guarigione e ripresa?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2263"] = <
 					text = <"Molto insoddisfatta">
@@ -8054,7 +7999,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2267"] = <
 					text = <"Che cosa prevede il tuo piano di trattamento se il tumore viene individuato nei linfonodi?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2268"] = <
 					text = <"Molto insoddisfatta">
@@ -8075,7 +8019,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2272"] = <
 					text = <"Quanto dolore ti aspetti durante la ripresa?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2273"] = <
 					text = <"Molto insoddisfatta">
@@ -8096,7 +8039,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2277"] = <
 					text = <"Possibili complicanze?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2278"] = <
 					text = <"Molto insoddisfatta">
@@ -8117,7 +8059,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2282"] = <
 					text = <"Come le possibiità che il cancro ritorni siano le stesse dopo quadrantectomia o mastectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2283"] = <
 					text = <"Molto insoddisfatta">
@@ -8138,7 +8079,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2287"] = <
 					text = <"Cosa aspettarsi riguardo a come sembrerà la tua mammella dopo la quadrantectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2288"] = <
 					text = <"Molto insoddisfatta">
@@ -8159,7 +8099,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2292"] = <
 					text = <"Come sembreranno le cicatrici della quadrantectomia?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2293"] = <
 					text = <"Molto insoddisfatta">
@@ -8180,7 +8119,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2297"] = <
 					text = <"Che dimensioni della mammella sottoposta a quadrantectomia aspettarsi dopo l’intervento?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2298"] = <
 					text = <"Molto insoddisfatta">
@@ -8201,7 +8139,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2302"] = <
 					text = <"Che forma della mammella sottoposta a quadrantectomia aspettarsi dopo l’intervento?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2303"] = <
 					text = <"Molto insoddisfatta">
@@ -8742,7 +8679,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2437"] = <
 					text = <"La pelle irradiata tua mammella si mostra differente (i.e. troppo scura o troppo chiara)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2438"] = <
 					text = <"Per nulla">
@@ -8759,7 +8695,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2441"] = <
 					text = <"Segni sulla pelle del seno causati dalla radioterapia (i.e. piccoli vasi sanguigni visibili)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2442"] = <
 					text = <"Per nulla">
@@ -8776,7 +8711,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2445"] = <
 					text = <"La pelle della tua mammella irradiata è secca?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2446"] = <
 					text = <"Per nulla">
@@ -8793,7 +8727,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2449"] = <
 					text = <"La pelle irradiata della tua mammella è sensibile quando viene toccata (ad esempio durante i cambi di temperature dell’acqua quando fai il bagno o la doccia)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2450"] = <
 					text = <"Per nulla">
@@ -8810,7 +8743,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2453"] = <
 					text = <"La pelle della tua mammella irradiata sembra innaturalmente spessa (ruvida, dura) quando la tocchi?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2454"] = <
 					text = <"Per nulla">
@@ -8827,7 +8759,6 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at2457"] = <
 					text = <"Senti la pelle tua mammella irradiata irritata dagli abiti che indossi?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2458"] = <
 					text = <"Per nulla">
@@ -8888,6 +8819,10 @@ Lorsque vous pensez à votre sein, dans quelle mesure avez-vous été satisfaite
 				["at9000"] = <
 					text = <"Pensando al tuo seno, o se hai avuto una mastectomia, nelle ultima settimana quanto soddisfatta o insoddisfatta ti sei sentita di:">
 					description = <"Pensando al tuo seno, o se hai avuto una mastectomia, nelle ultima settimana quanto soddisfatta o insoddisfatta ti sei sentita di:">
+				>
+				["at9001"] = <
+					text = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
+					description = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
 				>
 				["at9002"] = <
 					text = <"Se hai avuto una quadrantectomia con radioterapia su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Con il tuo seno in mente, nella scorsa settimana, quanto soddisfatta o insoddisfatta ti sei sentita riguardo a:">
