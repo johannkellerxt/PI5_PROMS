@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=fe1c1db5-10a8-43cb-8d00-b0910fb4810d)
+archetype (adl_version=1.4; uid=ce3cf943-932a-46cd-88d4-ce38b2af9a03)
 	openEHR-EHR-OBSERVATION.iief5.v0
 
 concept
@@ -83,9 +83,9 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["build_uid"] = <"882a42db-7c3c-4988-bbc3-9e060279c452">
+		["build_uid"] = <"9cc46d45-b954-4441-93a2-648b4df628b1">
 		["ip_acknowledgements"] = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña.">
-		["MD5-CAM-1.0.1"] = <"49bb99b5bf0f98ebac62ed03021efac3">
+		["MD5-CAM-1.0.1"] = <"affafb2d88575c8fa878b1242b1d2e57">
 	>
 
 definition
@@ -101,72 +101,47 @@ definition
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2000] occurrences matches {0..1} matches {    -- How do you rate your confidence that you could get and keep an erection?
 												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at2001,    -- Very low
-															at2002,    -- Low
-															at2003,    -- Moderate
-															at2004,    -- High
-															at2005]    -- Very High
-														}
-													}
+													1|[local::at2001],
+													2|[local::at2002],
+													3|[local::at2003],
+													4|[local::at2004],
+													5|[local::at2005]
 												}
 											}
 											ELEMENT[at2006] occurrences matches {0..1} matches {    -- When you had erections with sexual stimulation, how often were your erections hard enough for penetration?
 												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at2007,    -- Almost never/never
-															at2008,    -- A few times (much less than half the time)
-															at2009,    -- Sometimes (about half the time)
-															at2010,    -- Most times (much more than half the time)
-															at2011]    -- Almost always / always
-														}
-													}
+													1|[local::at2007],
+													2|[local::at2008],
+													3|[local::at2009],
+													4|[local::at2010],
+													5|[local::at2011]
 												}
 											}
 											ELEMENT[at2012] occurrences matches {0..1} matches {    -- During sexual intercourse, how often were you able to maintain your erection after you had penetrated (entered) your partner?
 												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at2013,    -- Almost never/never
-															at2014,    -- A few times (much less than half the time)
-															at2015,    -- Sometimes (about half the time)
-															at2016,    -- Most times (much more than half the time)
-															at2017]    -- Almost always / always
-														}
-													}
+													1|[local::at2013],
+													2|[local::at2014],
+													3|[local::at2015],
+													4|[local::at2016],
+													5|[local::at2017]
 												}
 											}
 											ELEMENT[at2018] occurrences matches {0..1} matches {    -- During sexual intercourse, how difficult was it to maintain your erection to completion of intercourse?
 												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at2019,    -- Extremely difficult
-															at2020,    -- Very difficult
-															at2021,    -- Difficult
-															at2022,    -- Slightly difficult
-															at2023]    -- Not difficult
-														}
-													}
+													1|[local::at2019],
+													2|[local::at2020],
+													3|[local::at2021],
+													4|[local::at2022],
+													5|[local::at2023]
 												}
 											}
 											ELEMENT[at2024] occurrences matches {0..1} matches {    -- When you attempted sexual intercourse, how often was it satisfactory for you?
 												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at2025,    -- Almost never/never
-															at2026,    -- A few times (much less than half the time)
-															at2027,    -- Sometimes (about half the time)
-															at2028,    -- Most times (much more than half the time)
-															at2029]    -- Almost always / always
-														}
-													}
+													1|[local::at2025],
+													2|[local::at2026],
+													3|[local::at2027],
+													4|[local::at2028],
+													5|[local::at2029]
 												}
 											}
 										}
@@ -506,23 +481,23 @@ ontology
 					description = <"">
 				>
 				["at2001"] = <
-					text = <"*Very low (en)">
+					text = <"Pas sûr du tout">
 					description = <"">
 				>
 				["at2002"] = <
-					text = <"*Low (en)">
+					text = <"Pas très sûr">
 					description = <"">
 				>
 				["at2003"] = <
-					text = <"*Moderate (en)">
+					text = <"Moyennement sûr">
 					description = <"">
 				>
 				["at2004"] = <
-					text = <"*High (en)">
+					text = <"Sûr">
 					description = <"">
 				>
 				["at2005"] = <
-					text = <"*Very High (en)">
+					text = <"Très sûr">
 					description = <"">
 				>
 				["at2006"] = <
@@ -530,23 +505,23 @@ ontology
 					description = <"">
 				>
 				["at2007"] = <
-					text = <"*Almost never/never (en)">
+					text = <"Presque jamais ou jamais">
 					description = <"">
 				>
 				["at2008"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
 					description = <"">
 				>
 				["at2009"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"Quelquefois (environ la moitié du temps)">
 					description = <"">
 				>
 				["at2010"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
 					description = <"">
 				>
 				["at2011"] = <
-					text = <"*Almost always / always (en)">
+					text = <"Presque tout le temps ou tout le temps">
 					description = <"">
 				>
 				["at2012"] = <
@@ -554,23 +529,23 @@ ontology
 					description = <"">
 				>
 				["at2013"] = <
-					text = <"*Almost never/never (en)">
+					text = <"Presque jamais ou jamais">
 					description = <"">
 				>
 				["at2014"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
 					description = <"">
 				>
 				["at2015"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"Quelquefois (environ la moitié du temps)">
 					description = <"">
 				>
 				["at2016"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
 					description = <"">
 				>
 				["at2017"] = <
-					text = <"*Almost always / always (en)">
+					text = <"Presque tout le temps ou tout le temps">
 					description = <"">
 				>
 				["at2018"] = <
@@ -578,23 +553,23 @@ ontology
 					description = <"">
 				>
 				["at2019"] = <
-					text = <"*Extremely difficult (en)">
+					text = <"Extrêmement difficile">
 					description = <"">
 				>
 				["at2020"] = <
-					text = <"*Very difficult (en)">
+					text = <"Très difficile">
 					description = <"">
 				>
 				["at2021"] = <
-					text = <"*Difficult (en)">
+					text = <"Difficile">
 					description = <"">
 				>
 				["at2022"] = <
-					text = <"*Slightly difficult (en)">
+					text = <"Un peu difficile">
 					description = <"">
 				>
 				["at2023"] = <
-					text = <"*Not difficult (en)">
+					text = <"Pas difficile">
 					description = <"">
 				>
 				["at2024"] = <
@@ -602,23 +577,23 @@ ontology
 					description = <"">
 				>
 				["at2025"] = <
-					text = <"*Almost never/never (en)">
+					text = <"Presque jamais ou jamais">
 					description = <"">
 				>
 				["at2026"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
 					description = <"">
 				>
 				["at2027"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"Quelquefois (environ la moitié du temps)">
 					description = <"">
 				>
 				["at2028"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
 					description = <"">
 				>
 				["at2029"] = <
-					text = <"*Almost always / always (en)">
+					text = <"Presque tout le temps ou tout le temps">
 					description = <"">
 				>
 				["at2030"] = <
@@ -654,23 +629,23 @@ ontology
 					description = <"">
 				>
 				["at2001"] = <
-					text = <"*Very low (en)">
+					text = <"molto bassa">
 					description = <"">
 				>
 				["at2002"] = <
-					text = <"*Low (en)">
+					text = <"bassa">
 					description = <"">
 				>
 				["at2003"] = <
-					text = <"*Moderate (en)">
+					text = <"moderata">
 					description = <"">
 				>
 				["at2004"] = <
-					text = <"*High (en)">
+					text = <"alta">
 					description = <"">
 				>
 				["at2005"] = <
-					text = <"*Very High (en)">
+					text = <"molto alta">
 					description = <"">
 				>
 				["at2006"] = <
@@ -678,23 +653,23 @@ ontology
 					description = <"">
 				>
 				["at2007"] = <
-					text = <"*Almost never/never (en)">
+					text = <"quasi mai o mai">
 					description = <"">
 				>
 				["at2008"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"poche volte (molto meno della metà delle volte)">
 					description = <"">
 				>
 				["at2009"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"qualche volta (circa la metà delle volte)">
 					description = <"">
 				>
 				["at2010"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"la maggior parte delle volte (più della metà delle volte)">
 					description = <"">
 				>
 				["at2011"] = <
-					text = <"*Almost always / always (en)">
+					text = <"quasi sempre o sempre">
 					description = <"">
 				>
 				["at2012"] = <
@@ -702,23 +677,23 @@ ontology
 					description = <"">
 				>
 				["at2013"] = <
-					text = <"*Almost never/never (en)">
+					text = <"quasi mai o mai">
 					description = <"">
 				>
 				["at2014"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"poche volte (molto meno della metà delle volte)">
 					description = <"">
 				>
 				["at2015"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"qualche volta (circa la metà delle volte)">
 					description = <"">
 				>
 				["at2016"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"la maggior parte delle volte (più della metà delle volte)">
 					description = <"">
 				>
 				["at2017"] = <
-					text = <"*Almost always / always (en)">
+					text = <"quasi sempre o sempre">
 					description = <"">
 				>
 				["at2018"] = <
@@ -726,23 +701,23 @@ ontology
 					description = <"">
 				>
 				["at2019"] = <
-					text = <"*Extremely difficult (en)">
+					text = <"estremamente difficile">
 					description = <"">
 				>
 				["at2020"] = <
-					text = <"*Very difficult (en)">
+					text = <"molto difficile">
 					description = <"">
 				>
 				["at2021"] = <
-					text = <"*Difficult (en)">
+					text = <"difficile">
 					description = <"">
 				>
 				["at2022"] = <
-					text = <"*Slightly difficult (en)">
+					text = <"abbastanza difficile">
 					description = <"">
 				>
 				["at2023"] = <
-					text = <"*Not difficult (en)">
+					text = <"facile">
 					description = <"">
 				>
 				["at2024"] = <
@@ -750,23 +725,23 @@ ontology
 					description = <"">
 				>
 				["at2025"] = <
-					text = <"*Almost never/never (en)">
+					text = <"quasi mai o mai">
 					description = <"">
 				>
 				["at2026"] = <
-					text = <"*A few times (much less than half the time) (en)">
+					text = <"poche volte (molto meno della metà delle volte)">
 					description = <"">
 				>
 				["at2027"] = <
-					text = <"*Sometimes (about half the time) (en)">
+					text = <"qualche volta (circa la metà delle volte)">
 					description = <"">
 				>
 				["at2028"] = <
-					text = <"*Most times (much more than half the time) (en)">
+					text = <"la maggior parte delle volte (più della metà delle volte)">
 					description = <"">
 				>
 				["at2029"] = <
-					text = <"*Almost always / always (en)">
+					text = <"quasi sempre o sempre">
 					description = <"">
 				>
 				["at2030"] = <
