@@ -2203,7 +2203,6 @@ ontology
 				["at2210"] = <
 					text = <"Ihre bestrahlte Brust sieht anders aus (z. B. zu dunkel oder zu hell)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Gar nicht">
@@ -2220,7 +2219,6 @@ ontology
 				["at2214"] = <
 					text = <"Durch die Bestrahlung verursachte Male auf der Haut Ihrer Brust (z. B. kleine, sichtbare Blutgefäße)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Gar nicht">
@@ -2237,7 +2235,6 @@ ontology
 				["at2218"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich trocken an?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Gar nicht">
@@ -2254,7 +2251,6 @@ ontology
 				["at2222"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich bei Berührung wund (empfindlich) an (z. B. bei veränderter Wassertemperatur beim Baden/Duschen)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Gar nicht">
@@ -2271,7 +2267,6 @@ ontology
 				["at2226"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich bei Berührung unnatürlich dick (rau, hart) an?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Gar nicht">
@@ -2288,7 +2283,6 @@ ontology
 				["at2230"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich durch das Tragen von Kleidung gereizt an?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Gar nicht">
@@ -4785,7 +4779,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2210"] = <
 					text = <"Your radiated breast skin looking different (e.g., too dark or too light)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Not at all">
@@ -4802,7 +4795,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2214"] = <
 					text = <"Marks on your breast skin caused by radiation (e.g., small visible blood vessels)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Not at all">
@@ -4819,7 +4811,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2218"] = <
 					text = <"Your radiated breast skin feeling dry?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Not at all">
@@ -4836,7 +4827,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2222"] = <
 					text = <"Your radiated breast skin feeling sore (sensitive) when touched (e.g., changes in water temperature when you bathe/shower)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Not at all">
@@ -4853,7 +4843,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2226"] = <
 					text = <"Your radiated breast skin feeling unnaturally thick (rough, tough) when you touch it?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Not at all">
@@ -4870,7 +4859,6 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2230"] = <
 					text = <"Your radiated breast skin feeling irritated by clothing that you wear?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Not at all">
@@ -9946,7 +9934,6 @@ Did you feel that they:">
 				["at2210"] = <
 					text = <"Che la pelle del seno irradiato ha un aspetto diverso (ad esempio troppo scura o troppo chiara)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Per nulla">
@@ -9963,7 +9950,6 @@ Did you feel that they:">
 				["at2214"] = <
 					text = <"I segni sulla pelle del seno causati da radiazioni (per esempio piccoli vasi sanguigni visibili)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Per nulla">
@@ -9980,7 +9966,6 @@ Did you feel that they:">
 				["at2218"] = <
 					text = <"Sentire la pelle del seno irradiato secca?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Per nulla">
@@ -9997,7 +9982,6 @@ Did you feel that they:">
 				["at2222"] = <
 					text = <"Che la pelle del seno irradiato è dolorante (sensibile) quando viene toccata (ad esempio cambiamenti nella temperatura dell'acqua quando si fa il bagno / la doccia)?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Per nulla">
@@ -10014,7 +9998,6 @@ Did you feel that they:">
 				["at2226"] = <
 					text = <"Sentire la pelle del seno irradiato innaturalmente spessa (ruvida, dura) quando la tocchi?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Per nulla">
@@ -10031,7 +10014,6 @@ Did you feel that they:">
 				["at2230"] = <
 					text = <"Sentire la pelle del seno irradiato irritata dai vestiti che indossi?">
 					description = <"">
-					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Per nulla">
