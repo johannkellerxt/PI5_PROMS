@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=07b41df0-843b-434c-aac7-dbba66ba6e75)
+archetype (adl_version=1.4; uid=16b75aea-f962-45f5-87d0-4141b7c55ef2)
 	openEHR-EHR-OBSERVATION.ipss.v0
 
 concept
@@ -38,53 +38,53 @@ language
 
 description
 	original_author = <
-		["date"] = <"2015-05-31">
-		["name"] = <"Navin Ramachandran">
-		["organisation"] = <"UCLH">
-		["email"] = <"navinramachandran@nhs.net">
+		["date"] = <"2026-05-08">
+		["name"] = <"Johann Keller">
+		["organisation"] = <"x-tention Informationstechnologie AG">
+		["email"] = <"johann.keller@x-tention.ch">
 	>
 	lifecycle_state = <"unmanaged">
-	other_contributors = <"Navin Ramachandran, UCLH, United Kingdom","Vebjørn Arntzen, Oslo University Hospital, Norway","Silje Ljosland Bakke, Helse Vest IKT AS, Norway","SB Bhattacharyya, Sudisa Consultancy Services, India">
+	other_contributors = <"Sol Fustinana, University Hospital Basel, Switzerland","Olha Nikolaieva, University Hospital Basel, Switzerland","Maren Diepenbruck, University Hospital Basel, Switzerland">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"Zur Erfassung der Ergebnisse jedes Komponentenparameters sowie deren Gesamtsumme für den Internationalen Prostata-Symptom-Score (IPSS).">
-			keywords = <"I-PSS, IPSS, Internationaler Prostata-Symptom-Score, Prostata, Benigne Prostatahyperplasie, BPH, Untere Harnwegssymptome", ...>
-			copyright = <"© Clinical Models UK, openEHR Foundation">
-			use = <"Zur Erfassung der Ergebnisse der einzelnen Komponentenparameter und der Gesamtsumme des IPSS verwenden. Die sieben Symptomitems werden zu einer Gesamtpunktzahl von 0 bis 35 addiert. Das Lebensqualitäts-Item wird separat erfasst und nicht in den Symptomscore einbezogen.">
+			purpose = <"Zur Erfassung der Antworten auf jedes der sieben Symptomitems und des Lebensqualitäts-Items des Internationalen Prostata-Symptom-Scores (IPSS) sowie der berechneten Gesamtpunktzahl.">
+			keywords = <"IPSS, I-PSS, Internationaler Prostata-Symptom-Score, Prostata, Benigne Prostatahyperplasie, BPH, Untere Harnwegssymptome", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Zur Dokumentation der Beurteilung von Harnwegssymptomen im Zusammenhang mit einer benignen Prostatahyperplasie. Jedes der sieben Symptomitems wird mit 0 bis 5 Punkten bewertet, wodurch eine Gesamtpunktzahl von 0 bis 35 entsteht. Das Lebensqualitäts-Item wird separat erfasst und nicht in den Symptomscore einbezogen. Der IPSS ist ein Bewertungsinstrument und stellt für sich allein keine Diagnose dar. Diese Darstellung ist unter der Creative Commons Attribution-ShareAlike 4.0 International License lizenziert.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record the results for each component parameter and their total sum for the International Prostate Symptom Score (IPSS).">
-			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostate, Benign prostatic hyperplasia, BPH, Lower urinary tract symptoms", ...>
-			copyright = <"© Clinical Models UK, openEHR Foundation">
-			use = <"Use to record the results for each component parameter and their total sum for the IPSS. The seven symptom items are summed to produce a total score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score.">
+			purpose = <"To record the responses for each of the seven symptom items and the quality of life item of the International Prostate Symptom Score (IPSS), together with the calculated total symptom score.">
+			keywords = <"IPSS, I-PSS, International Prostate Symptom Score, Prostate, Benign prostatic hyperplasia, BPH, Lower urinary tract symptoms", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Use to document assessment of urinary symptoms associated with benign prostatic hyperplasia. Each of the seven symptom items is scored from 0 to 5, producing a total symptom score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score. The IPSS is an assessment instrument and does not by itself establish a diagnosis. This representation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
-			purpose = <"*To record the results for each component parameter and their total sum for the International Prostate Symptom Score (IPSS). (en)">
-			copyright = <"© Clinical Models UK, openEHR Foundation">
-			use = <"*Use to record the results for each component parameter and their total sum for the IPSS. The seven symptom items are summed to produce a total score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score. (en)">
+			purpose = <"*To record the responses for each of the seven symptom items and the quality of life item of the International Prostate Symptom Score (IPSS), together with the calculated total symptom score. (en)">
+			copyright = <"© openEHR Foundation test">
+			use = <"*Use to document assessment of urinary symptoms associated with benign prostatic hyperplasia. Each of the seven symptom items is scored from 0 to 5, producing a total symptom score from 0 to 35. The quality of life item is recorded separately and is not included in the symptom score. The IPSS is an assessment instrument and does not by itself establish a diagnosis. This representation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. (en)">
 		>
 		["fr"] = <
 			language = <[ISO_639-1::fr]>
-			purpose = <"Enregistrer les résultats de chaque paramètre composant ainsi que leur somme totale pour l'International Prostate Symptom Score (IPSS).">
-			keywords = <"I-PSS, IPSS, Score international des symptômes prostatiques, Prostate, Hyperplasie bénigne de la prostate, HBP, Symptômes des voies urinaires basses", ...>
-			copyright = <"© Clinical Models UK, openEHR Foundation">
-			use = <"Utiliser pour enregistrer les résultats de chaque paramètre composant et leur somme totale pour l'IPSS. Les sept items de symptômes sont additionnés pour obtenir un score total de 0 à 35. L'item de qualité de vie est enregistré séparément et n'est pas inclus dans le score des symptômes.">
+			purpose = <"Enregistrer les réponses aux sept items symptomatiques et à l'item de qualité de vie de l'International Prostate Symptom Score (IPSS), ainsi que le score total calculé.">
+			keywords = <"IPSS, I-PSS, Score international des symptômes prostatiques, Prostate, Hyperplasie bénigne de la prostate, HBP, Symptômes des voies urinaires basses", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Utiliser pour documenter l'évaluation des symptômes urinaires associés à l'hyperplasie bénigne de la prostate. Chacun des sept items symptomatiques est coté de 0 à 5, produisant un score total de 0 à 35. L'item de qualité de vie est enregistré séparément et n'est pas inclus dans le score symptomatique. L'IPSS est un instrument d'évaluation et ne permet pas, à lui seul, d'établir un diagnostic. Cette représentation est sous licence Creative Commons Attribution-ShareAlike 4.0 International.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"[{'citation': 'Derived from: I-PSS Prostate Score, Draft archetype [Internet]. Apperta UK, Apperta UK Clinical Knowledge Manager [cited: 2020-11-11].'}, {'citation': 'Badía X, García-Losa M, Dal-Ré R. Ten-language translation and harmonization of the International Prostate Symptom Score: developing a methodology for multinational clinical trials. European Urology. 1997;31(2):129-140. doi:10.1159/000474438.'}, {'citation': 'International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1.'}]">
-		["current_contact"] = <"Navin Ramachandran, UCLH, navinramachandran@nhs.net">
+		["references"] = <"['Barry MJ, Fowler FJ Jr, O\\u0027Leary MP, Bruskewitz RC, Holtgrewe HL, Mebust WK, Cockett AT. The American Urological Association symptom index for benign prostatic hyperplasia. The Measurement Committee of the American Urological Association. Journal of Urology. 1992;148(5):1549-1557.', 'Badía X, García-Losa M, Dal-Ré R. Ten-language translation and harmonization of the International Prostate Symptom Score: developing a methodology for multinational clinical trials. European Urology. 1997;31(2):129-140. doi:10.1159/000474438.', 'International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1.']">
+		["current_contact"] = <"">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["build_uid"] = <"1e2bef6b-0849-46f8-8c2a-0f4a6531f826">
-		["ip_acknowledgements"] = <"Public domain">
-		["MD5-CAM-1.0.1"] = <"8faca0148d77e7b2223c6adc8c4a5557">
+		["build_uid"] = <"8078ec7f-e3b8-49c4-ad83-39f58f950bd3">
+		["ip_acknowledgements"] = <"The International Prostate Symptom Score (IPSS) was developed by Barry MJ, Fowler FJ Jr, O'Leary MP, Bruskewitz RC, Holtgrewe HL, Mebust WK, and Cockett AT.">
+		["MD5-CAM-1.0.1"] = <"77fdef54d461ac0004987e9ef75ff44a">
 	>
 
 definition
@@ -213,7 +213,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"Der Internationale Prostata-Symptom-Score (IPSS) ist ein Bewertungsinstrument zur Erkennung, Beurteilung und Verlaufskontrolle von Symptomen einer benignen Prostatahyperplasie (BPH). Er umfasst sieben Symptomfragen und eine Frage zur Lebensqualität.">
+					description = <"Der Internationale Prostata-Symptom-Score (IPSS) ist ein standardisiertes Bewertungsinstrument zur Beurteilung des Schweregrades von Symptomen der unteren Harnwege im Zusammenhang mit einer benignen Prostatahyperplasie (BPH). Er umfasst sieben Symptomitems und ein zusätzliches Item zur Lebensqualität.">
 				>
 				["at2000"] = <
 					text = <"Wie oft hatten Sie das Gefühl, dass Ihre Blase nach dem Wasserlassen nicht ganz entleert war?">
@@ -448,8 +448,8 @@ ontology
 					description = <"">
 				>
 				["at9000"] = <
-					text = <"All information refers to the last 4 weeks.">
-					description = <"All information refers to the last 4 weeks.">
+					text = <"Alle Angaben beziehen sich auf die letzten 4 Wochen.">
+					description = <"Alle Angaben beziehen sich auf die letzten 4 Wochen.">
 				>
 				["at0001"] = <
 					text = <"History">
@@ -469,7 +469,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"The International Prostate Symptom Score (IPSS) is an assessment score used to screen for, diagnose, and track symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question.">
+					description = <"The International Prostate Symptom Score (IPSS) is a standardized assessment instrument used to evaluate the severity of lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom items and one quality of life assessment item.">
 				>
 				["at2000"] = <
 					text = <"Over the past month, how often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?">
@@ -725,7 +725,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"L'International Prostate Symptom Score (IPSS) est un score d'évaluation utilisé pour le dépistage, le diagnostic et le suivi des symptômes associés à l'hyperplasie bénigne de la prostate (HBP). Il comprend sept questions sur les symptômes et une question sur la qualité de vie.">
+					description = <"L'International Prostate Symptom Score (IPSS) est un instrument d'évaluation standardisé utilisé pour mesurer la sévérité des symptômes des voies urinaires basses associés à l'hyperplasie bénigne de la prostate (HBP). Il comprend sept items symptomatiques et un item d'évaluation de la qualité de vie.">
 				>
 				["at2000"] = <
 					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
@@ -981,7 +981,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"International prostate symptom score (IPSS)">
-					description = <"*The International Prostate Symptom Score (IPSS) is an assessment score used to screen for, diagnose, and track symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question. (en)">
+					description = <"*The International Prostate Symptom Score (IPSS) is a standardized assessment instrument used to evaluate the severity of lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom items and one quality of life assessment item. (en)">
 				>
 				["at2000"] = <
 					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
