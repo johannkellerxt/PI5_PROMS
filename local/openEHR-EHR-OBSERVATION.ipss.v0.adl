@@ -87,9 +87,9 @@ International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"71744a7c830e851a60a5cb39645b0967">
 		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
 		["ip_acknowledgements"] = <"Public domain">
-		["MD5-CAM-1.0.1"] = <"5e79b5da51a2cca859062ed6b811e402">
 	>
 
 definition
@@ -188,19 +188,9 @@ definition
 									}
 									ELEMENT[at2057] occurrences matches {0..1} matches {    -- IPSS SumScore
 										value matches {
-											C_DV_QUANTITY <
-												property = <[openehr::339]>
-												list = <
-													["1"] = <
-														units = <"[g]">
-														magnitude = <|0.0..35.0|>
-													>
-												>
-											>
 											DV_COUNT matches {
 												magnitude matches {|0..35|}
 											}
-											DV_TEXT matches {*}
 										}
 									}
 								}
