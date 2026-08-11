@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=1e8e99dd-acb7-4608-9a05-b4da35cedd0d)
+archetype (adl_version=1.4; uid=15029d35-bee7-42ee-b3b0-d954fba96956)
 	openEHR-EHR-OBSERVATION.breast_q_reconstruction.v0
 
 concept
@@ -85,9 +85,9 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"962a699590ea8c73ad09315b49764979">
-		["build_uid"] = <"9e0dabea-b5aa-4f94-b8cf-3da9dda2ec7d">
+		["build_uid"] = <"95a8073f-92df-47e1-96c4-e4f7bc808827">
 		["ip_acknowledgements"] = <"The BREAST-Q Reconstruction module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast reconstruction surgery.">
+		["MD5-CAM-1.0.1"] = <"35b99537c536714ab5229157f9825363">
 	>
 
 definition
@@ -1084,10 +1084,6 @@ definition
 													5|[local::at2574]
 												}
 											}
-										}
-									}
-									CLUSTER[at9016] occurrences matches {0..1} matches {    -- Thinking of your sexuality, how often do you generally feel:
-										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2575] occurrences matches {0..1} matches {    -- Comfortable/at ease during sexual activity?
 												value matches {
 													1|[local::at2576],
@@ -1141,11 +1137,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2606] occurrences matches {0..1} matches {    -- Score - Physical Well-being Abdomen pre-operative
@@ -1154,11 +1154,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2607] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Abdomen pre-operative
@@ -1167,11 +1171,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2608] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Abdomen post-operative
@@ -1180,11 +1188,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2609] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Implant post-operative
@@ -1193,11 +1205,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2610] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast pre-operative
@@ -1206,11 +1222,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2611] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Breast post-operative
@@ -1219,11 +1239,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2612] occurrences matches {0..1} matches {    -- Score - Psychosocial Well-being
@@ -1232,11 +1256,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2613] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest pre-operative
@@ -1245,11 +1273,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2614] occurrences matches {0..1} matches {    -- Score - Physical Well-being Chest post-operative
@@ -1258,11 +1290,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2615] occurrences matches {0..1} matches {    -- Score - Sexual Well-being
@@ -1271,11 +1307,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2616] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Information Breast Surgeon post-operative
@@ -1284,11 +1324,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2617] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Surgeon post-operative
@@ -1297,11 +1341,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2618] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Medical Team  post-operative
@@ -1310,11 +1358,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2619] occurrences matches {0..1} matches {    -- Score - Satitsfaction with Office Staff post-operative
@@ -1323,11 +1375,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 									ELEMENT[at2620] occurrences matches {0..1} matches {    -- Score - Adverse Effects of Radiation post-operative
@@ -1336,11 +1392,15 @@ definition
 												property = <[openehr::339]>
 												list = <
 													["1"] = <
-														units = <"1">
+														units = <"[g]">
 														magnitude = <|0.0..100.0|>
 													>
 												>
 											>
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+											DV_TEXT matches {*}
 										}
 									}
 								}
@@ -2203,6 +2263,7 @@ ontology
 				["at2210"] = <
 					text = <"Ihre bestrahlte Brust sieht anders aus (z. B. zu dunkel oder zu hell)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Gar nicht">
@@ -2219,6 +2280,7 @@ ontology
 				["at2214"] = <
 					text = <"Durch die Bestrahlung verursachte Male auf der Haut Ihrer Brust (z. B. kleine, sichtbare Blutgefäße)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Gar nicht">
@@ -2235,6 +2297,7 @@ ontology
 				["at2218"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich trocken an?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Gar nicht">
@@ -2251,6 +2314,7 @@ ontology
 				["at2222"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich bei Berührung wund (empfindlich) an (z. B. bei veränderter Wassertemperatur beim Baden/Duschen)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Gar nicht">
@@ -2267,6 +2331,7 @@ ontology
 				["at2226"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich bei Berührung unnatürlich dick (rau, hart) an?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Gar nicht">
@@ -2283,6 +2348,7 @@ ontology
 				["at2230"] = <
 					text = <"Die Haut Ihrer bestrahlten Brust fühlt sich durch das Tragen von Kleidung gereizt an?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Gar nicht">
@@ -3912,10 +3978,6 @@ Hatten Sie das Gefühl, dass sie:">
 					text = <"Bezogen auf Ihre Sexualität, wie oft fühlen Sie sich im Allgemeinen:">
 					description = <"Bezogen auf Ihre Sexualität, wie oft fühlen Sie sich im Allgemeinen:">
 				>
-				["at9016"] = <
-					text = <"Bezogen auf Ihre Sexualität, wie oft fühlen Sie sich generell:">
-					description = <"Bezogen auf Ihre Sexualität, wie oft fühlen Sie sich generell:">
-				>
 				["at0001"] = <
 					text = <"History">
 					description = <"@ internal @">
@@ -4779,6 +4841,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2210"] = <
 					text = <"Your radiated breast skin looking different (e.g., too dark or too light)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Not at all">
@@ -4795,6 +4858,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2214"] = <
 					text = <"Marks on your breast skin caused by radiation (e.g., small visible blood vessels)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Not at all">
@@ -4811,6 +4875,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2218"] = <
 					text = <"Your radiated breast skin feeling dry?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Not at all">
@@ -4827,6 +4892,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2222"] = <
 					text = <"Your radiated breast skin feeling sore (sensitive) when touched (e.g., changes in water temperature when you bathe/shower)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Not at all">
@@ -4843,6 +4909,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2226"] = <
 					text = <"Your radiated breast skin feeling unnaturally thick (rough, tough) when you touch it?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Not at all">
@@ -4859,6 +4926,7 @@ Hatten Sie das Gefühl, dass sie:">
 				["at2230"] = <
 					text = <"Your radiated breast skin feeling irritated by clothing that you wear?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Not at all">
@@ -6486,10 +6554,6 @@ Did you feel that he/she:">
 Did you feel that they:">
 				>
 				["at9015"] = <
-					text = <"Thinking of your sexuality, how often do you generally feel:">
-					description = <"Thinking of your sexuality, how often do you generally feel:">
-				>
-				["at9016"] = <
 					text = <"Thinking of your sexuality, how often do you generally feel:">
 					description = <"Thinking of your sexuality, how often do you generally feel:">
 				>
@@ -9067,10 +9131,6 @@ Did you feel that they:">
 					text = <"Les questions ci-dessous portent sur votre sexualité. Vous sentez-vous généralement :">
 					description = <"Les questions ci-dessous portent sur votre sexualité. Vous sentez-vous généralement :">
 				>
-				["at9016"] = <
-					text = <"Les questions ci-dessous portent sur votre sexualité. Vous sentez-vous généralement :">
-					description = <"Les questions ci-dessous portent sur votre sexualité. Vous sentez-vous généralement :">
-				>
 				["at0001"] = <
 					text = <"History">
 					description = <"@ internal @">
@@ -9934,6 +9994,7 @@ Did you feel that they:">
 				["at2210"] = <
 					text = <"Che la pelle del seno irradiato ha un aspetto diverso (ad esempio troppo scura o troppo chiara)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2211"] = <
 					text = <"Per nulla">
@@ -9950,6 +10011,7 @@ Did you feel that they:">
 				["at2214"] = <
 					text = <"I segni sulla pelle del seno causati da radiazioni (per esempio piccoli vasi sanguigni visibili)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2215"] = <
 					text = <"Per nulla">
@@ -9966,6 +10028,7 @@ Did you feel that they:">
 				["at2218"] = <
 					text = <"Sentire la pelle del seno irradiato secca?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2219"] = <
 					text = <"Per nulla">
@@ -9982,6 +10045,7 @@ Did you feel that they:">
 				["at2222"] = <
 					text = <"Che la pelle del seno irradiato è dolorante (sensibile) quando viene toccata (ad esempio cambiamenti nella temperatura dell'acqua quando si fa il bagno / la doccia)?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2223"] = <
 					text = <"Per nulla">
@@ -9998,6 +10062,7 @@ Did you feel that they:">
 				["at2226"] = <
 					text = <"Sentire la pelle del seno irradiato innaturalmente spessa (ruvida, dura) quando la tocchi?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2227"] = <
 					text = <"Per nulla">
@@ -10014,6 +10079,7 @@ Did you feel that they:">
 				["at2230"] = <
 					text = <"Sentire la pelle del seno irradiato irritata dai vestiti che indossi?">
 					description = <"">
+					comment = <"*Übersetzt durch mtg und Validierung noch ausstehend. (fr)">
 				>
 				["at2231"] = <
 					text = <"Per nulla">
@@ -11636,10 +11702,6 @@ Did you feel that they:">
 					description = <"Queste domande riguardano i membri dell’équipe medica diversi dal chirurgo (ad esempio infermieri ed altri medici che si sono presi cura di te il giorno che ti sei sottoposta all'intervento di ricostruzione mammaria). Hai avuto l’impressione che:">
 				>
 				["at9015"] = <
-					text = <"Pensando alla tua sessualità quanto spesso ti senti:">
-					description = <"Pensando alla tua sessualità quanto spesso ti senti:">
-				>
-				["at9016"] = <
 					text = <"Pensando alla tua sessualità quanto spesso ti senti:">
 					description = <"Pensando alla tua sessualità quanto spesso ti senti:">
 				>
