@@ -87,7 +87,7 @@ International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"71744a7c830e851a60a5cb39645b0967">
+		["MD5-CAM-1.0.1"] = <"5e79b5da51a2cca859062ed6b811e402">
 		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
 		["ip_acknowledgements"] = <"Public domain">
 	>
@@ -103,90 +103,90 @@ definition
 								items cardinality matches {0..*; unordered} matches {
 									CLUSTER[at9000] occurrences matches {0..1} matches {    -- Over the past month.
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at2000] occurrences matches {0..1} matches {    -- How often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- How often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?
 												value matches {
-													0|[local::at2001],
-													1|[local::at2002],
-													2|[local::at2003],
-													3|[local::at2004],
-													4|[local::at2005],
-													5|[local::at2006]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2007] occurrences matches {0..1} matches {    -- How often have you had to urinate again less than two hours after you finished urinating?
+											ELEMENT[at0011] occurrences matches {0..1} matches {    -- How often have you had to urinate again less than two hours after you finished urinating?
 												value matches {
-													0|[local::at2008],
-													1|[local::at2009],
-													2|[local::at2010],
-													3|[local::at2011],
-													4|[local::at2012],
-													5|[local::at2013]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2014] occurrences matches {0..1} matches {    -- How often have you found you stopped and started again several times when you urinated?
+											ELEMENT[at0012] occurrences matches {0..1} matches {    -- How often have you found you stopped and started again several times when you urinated?
 												value matches {
-													0|[local::at2015],
-													1|[local::at2016],
-													2|[local::at2017],
-													3|[local::at2018],
-													4|[local::at2019],
-													5|[local::at2020]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2021] occurrences matches {0..1} matches {    -- How difficult have you found it to postpone urination?
+											ELEMENT[at0013] occurrences matches {0..1} matches {    -- How difficult have you found it to postpone urination?
 												value matches {
-													0|[local::at2022],
-													1|[local::at2023],
-													2|[local::at2024],
-													3|[local::at2025],
-													4|[local::at2026],
-													5|[local::at2027]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2028] occurrences matches {0..1} matches {    -- How often have you had a weak urinary stream?
+											ELEMENT[at0014] occurrences matches {0..1} matches {    -- How often have you had a weak urinary stream?
 												value matches {
-													0|[local::at2029],
-													1|[local::at2030],
-													2|[local::at2031],
-													3|[local::at2032],
-													4|[local::at2033],
-													5|[local::at2034]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2035] occurrences matches {0..1} matches {    -- How often have you had to push or strain to begin urination?
+											ELEMENT[at0015] occurrences matches {0..1} matches {    -- How often have you had to push or strain to begin urination?
 												value matches {
-													0|[local::at2036],
-													1|[local::at2037],
-													2|[local::at2038],
-													3|[local::at2039],
-													4|[local::at2040],
-													5|[local::at2041]
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
 												}
 											}
-											ELEMENT[at2042] occurrences matches {0..1} matches {    -- How many times did you most typically get up to urinate from the time you went to bed until the time you got up in the morning?
+											ELEMENT[at0016] occurrences matches {0..1} matches {    -- How many times did you most typically get up to urinate from the time you went to bed until the time you got up in the morning?
 												value matches {
-													0|[local::at2043],
-													1|[local::at2044],
-													2|[local::at2045],
-													3|[local::at2046],
-													4|[local::at2047],
-													5|[local::at2048]
+													0|[local::at0017],
+													1|[local::at0018],
+													2|[local::at0019],
+													3|[local::at0020],
+													4|[local::at0021],
+													5|[local::at0022]
 												}
 											}
-											ELEMENT[at2049] occurrences matches {0..1} matches {    -- If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?
+											ELEMENT[at0024] occurrences matches {0..1} matches {    -- If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?
 												value matches {
-													0|[local::at2050],
-													1|[local::at2051],
-													2|[local::at2052],
-													3|[local::at2053],
-													4|[local::at2054],
-													5|[local::at2055],
-													6|[local::at2056]
+													0|[local::at0025],
+													1|[local::at0026],
+													2|[local::at0027],
+													3|[local::at0028],
+													4|[local::at0029],
+													5|[local::at0030],
+													6|[local::at0031]
 												}
 											}
 										}
 									}
-									ELEMENT[at2057] occurrences matches {0..1} matches {    -- IPSS SumScore
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- IPSS SumScore
 										value matches {
 											DV_COUNT matches {
 												magnitude matches {|0..35|}
@@ -210,235 +210,115 @@ ontology
 					text = <"International prostate symptom score (IPSS)">
 					description = <"Der Internationale Prostata-Symptom-Score (IPSS) ist ein Bewertungsinstrument zur Beurteilung des Schweregrads von Symptomen der unteren Harnwege im Zusammenhang mit einer benignen Prostatahyperplasie (BPH). Er umfasst sieben Symptomfragen und eine Frage zur Lebensqualität.">
 				>
-				["at2000"] = <
+				["at0004"] = <
 					text = <"Wie oft hatten Sie das Gefühl, dass Ihre Blase nach dem Wasserlassen nicht ganz entleert war?">
 					description = <"">
 				>
-				["at2001"] = <
+				["at0005"] = <
 					text = <"Nie">
 					description = <"">
 				>
-				["at2002"] = <
+				["at0006"] = <
 					text = <"Seltener als in 1 von 5 Fällen (<20%)">
 					description = <"">
 				>
-				["at2003"] = <
+				["at0007"] = <
 					text = <"Seltener als in der Hälfte aller Fälle">
 					description = <"">
 				>
-				["at2004"] = <
+				["at0008"] = <
 					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
 					description = <"">
 				>
-				["at2005"] = <
+				["at0009"] = <
 					text = <"In mehr als der Hälfte aller Fälle">
 					description = <"">
 				>
-				["at2006"] = <
+				["at0010"] = <
 					text = <"fast immer">
 					description = <"">
 				>
-				["at2007"] = <
+				["at0011"] = <
 					text = <"Wie oft mussten Sie innerhalb von 2 Stunden erneut Wasser lassen?">
 					description = <"">
 				>
-				["at2008"] = <
-					text = <"Nie">
-					description = <"">
-				>
-				["at2009"] = <
-					text = <"Seltener als in 1 von 5 Fällen (<20%)">
-					description = <"">
-				>
-				["at2010"] = <
-					text = <"Seltener als in der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2011"] = <
-					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
-					description = <"">
-				>
-				["at2012"] = <
-					text = <"In mehr als der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2013"] = <
-					text = <"fast immer">
-					description = <"">
-				>
-				["at2014"] = <
+				["at0012"] = <
 					text = <"Wie oft mussten Sie beim Wasserlassen mehrmals aufhören und wieder neu beginnen (Harnstottern)?">
 					description = <"">
 				>
-				["at2015"] = <
-					text = <"Nie">
-					description = <"">
-				>
-				["at2016"] = <
-					text = <"Seltener als in 1 von 5 Fällen (<20%)">
-					description = <"">
-				>
-				["at2017"] = <
-					text = <"Seltener als in der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2018"] = <
-					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
-					description = <"">
-				>
-				["at2019"] = <
-					text = <"In mehr als der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2020"] = <
-					text = <"fast immer">
-					description = <"">
-				>
-				["at2021"] = <
+				["at0013"] = <
 					text = <"Wie oft hatten Sie Schwierigkeiten, das Wasserlassen hinauszuzögern?">
 					description = <"">
 				>
-				["at2022"] = <
-					text = <"Nie">
-					description = <"">
-				>
-				["at2023"] = <
-					text = <"Seltener als in 1 von 5 Fällen (<20%)">
-					description = <"">
-				>
-				["at2024"] = <
-					text = <"Seltener als in der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2025"] = <
-					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
-					description = <"">
-				>
-				["at2026"] = <
-					text = <"In mehr als der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2027"] = <
-					text = <"fast immer">
-					description = <"">
-				>
-				["at2028"] = <
+				["at0014"] = <
 					text = <"Wie oft hatten Sie einen schwachen Strahl beim Wasserlassen?">
 					description = <"">
 				>
-				["at2029"] = <
-					text = <"Nie">
-					description = <"">
-				>
-				["at2030"] = <
-					text = <"Seltener als in 1 von 5 Fällen (<20%)">
-					description = <"">
-				>
-				["at2031"] = <
-					text = <"Seltener als in der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2032"] = <
-					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
-					description = <"">
-				>
-				["at2033"] = <
-					text = <"In mehr als der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2034"] = <
-					text = <"fast immer">
-					description = <"">
-				>
-				["at2035"] = <
+				["at0015"] = <
 					text = <"Wie oft mussten Sie pressen oder sich anstrengen, um mit dem Wasserlassen zu beginnen?">
 					description = <"">
 				>
-				["at2036"] = <
-					text = <"Nie">
-					description = <"">
-				>
-				["at2037"] = <
-					text = <"Seltener als in 1 von 5 Fällen (<20%)">
-					description = <"">
-				>
-				["at2038"] = <
-					text = <"Seltener als in der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2039"] = <
-					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
-					description = <"">
-				>
-				["at2040"] = <
-					text = <"In mehr als der Hälfte aller Fälle">
-					description = <"">
-				>
-				["at2041"] = <
-					text = <"fast immer">
-					description = <"">
-				>
-				["at2042"] = <
+				["at0016"] = <
 					text = <"Wie oft sind Sie iim Durchschnitt nachts aufgestanden, um Wasser zu lassen. Massgebend ist der Zeitraum vom Zubettgehen bis zum Aufstehen am Morgen.">
 					description = <"">
 				>
-				["at2043"] = <
+				["at0017"] = <
 					text = <"Nie">
 					description = <"">
 				>
-				["at2044"] = <
+				["at0018"] = <
 					text = <"Einmal">
 					description = <"">
 				>
-				["at2045"] = <
+				["at0019"] = <
 					text = <"Zweimal">
 					description = <"">
 				>
-				["at2046"] = <
+				["at0020"] = <
 					text = <"Dreimal">
 					description = <"">
 				>
-				["at2047"] = <
+				["at0021"] = <
 					text = <"Viermal">
 					description = <"">
 				>
-				["at2048"] = <
+				["at0022"] = <
 					text = <"Fünfmal oder mehr">
 					description = <"">
 				>
-				["at2049"] = <
+				["at0024"] = <
 					text = <"Wie würden Sie sich fühlen, wenn sich Ihre jetzigen Symptome beim Wasserlassen in Ihrem weiteren Leben nicht mehr ändern würden?">
 					description = <"">
 				>
-				["at2050"] = <
+				["at0025"] = <
 					text = <"ausgezeichnet">
 					description = <"">
 				>
-				["at2051"] = <
+				["at0026"] = <
 					text = <"zufrieden">
 					description = <"">
 				>
-				["at2052"] = <
+				["at0027"] = <
 					text = <"überwiegend zufrieden">
 					description = <"">
 				>
-				["at2053"] = <
+				["at0028"] = <
 					text = <"gemischt, teils zufrieden, teils unzufrieden">
 					description = <"">
 				>
-				["at2054"] = <
+				["at0029"] = <
 					text = <"überwiegend unzufrieden">
 					description = <"">
 				>
-				["at2055"] = <
+				["at0030"] = <
 					text = <"unglücklich">
 					description = <"">
 				>
-				["at2056"] = <
+				["at0031"] = <
 					text = <"sehr schlecht">
 					description = <"">
 				>
-				["at2057"] = <
+				["at0023"] = <
 					text = <"IPSS SumScore">
 					description = <"">
 				>
@@ -466,235 +346,115 @@ ontology
 					text = <"International prostate symptom score (IPSS)">
 					description = <"The International Prostate Symptom Score (IPSS) is an assessment instrument used to evaluate the severity of lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question.">
 				>
-				["at2000"] = <
+				["at0004"] = <
 					text = <"How often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?">
 					description = <"">
 				>
-				["at2001"] = <
+				["at0005"] = <
 					text = <"Not at all">
 					description = <"">
 				>
-				["at2002"] = <
+				["at0006"] = <
 					text = <"Less than 1 time in 5">
 					description = <"">
 				>
-				["at2003"] = <
+				["at0007"] = <
 					text = <"Less than half the time">
 					description = <"">
 				>
-				["at2004"] = <
+				["at0008"] = <
 					text = <"Abou half the time">
 					description = <"">
 				>
-				["at2005"] = <
+				["at0009"] = <
 					text = <"More than half the time">
 					description = <"">
 				>
-				["at2006"] = <
+				["at0010"] = <
 					text = <"Almost always">
 					description = <"">
 				>
-				["at2007"] = <
+				["at0011"] = <
 					text = <"How often have you had to urinate again less than two hours after you finished urinating?">
 					description = <"">
 				>
-				["at2008"] = <
-					text = <"Not at all">
-					description = <"">
-				>
-				["at2009"] = <
-					text = <"Less than 1 time in 5">
-					description = <"">
-				>
-				["at2010"] = <
-					text = <"Less than half the time">
-					description = <"">
-				>
-				["at2011"] = <
-					text = <"Abou half the time">
-					description = <"">
-				>
-				["at2012"] = <
-					text = <"More than half the time">
-					description = <"">
-				>
-				["at2013"] = <
-					text = <"Almost always">
-					description = <"">
-				>
-				["at2014"] = <
+				["at0012"] = <
 					text = <"How often have you found you stopped and started again several times when you urinated?">
 					description = <"">
 				>
-				["at2015"] = <
-					text = <"Not at all">
-					description = <"">
-				>
-				["at2016"] = <
-					text = <"Less than 1 time in 5">
-					description = <"">
-				>
-				["at2017"] = <
-					text = <"Less than half the time">
-					description = <"">
-				>
-				["at2018"] = <
-					text = <"Abou half the time">
-					description = <"">
-				>
-				["at2019"] = <
-					text = <"More than half the time">
-					description = <"">
-				>
-				["at2020"] = <
-					text = <"Almost always">
-					description = <"">
-				>
-				["at2021"] = <
+				["at0013"] = <
 					text = <"How difficult have you found it to postpone urination?">
 					description = <"">
 				>
-				["at2022"] = <
-					text = <"Not at all">
-					description = <"">
-				>
-				["at2023"] = <
-					text = <"Less than 1 time in 5">
-					description = <"">
-				>
-				["at2024"] = <
-					text = <"Less than half the time">
-					description = <"">
-				>
-				["at2025"] = <
-					text = <"Abou half the time">
-					description = <"">
-				>
-				["at2026"] = <
-					text = <"More than half the time">
-					description = <"">
-				>
-				["at2027"] = <
-					text = <"Almost always">
-					description = <"">
-				>
-				["at2028"] = <
+				["at0014"] = <
 					text = <"How often have you had a weak urinary stream?">
 					description = <"">
 				>
-				["at2029"] = <
-					text = <"Not at all">
-					description = <"">
-				>
-				["at2030"] = <
-					text = <"Less than 1 time in 5">
-					description = <"">
-				>
-				["at2031"] = <
-					text = <"Less than half the time">
-					description = <"">
-				>
-				["at2032"] = <
-					text = <"Abou half the time">
-					description = <"">
-				>
-				["at2033"] = <
-					text = <"More than half the time">
-					description = <"">
-				>
-				["at2034"] = <
-					text = <"Almost always">
-					description = <"">
-				>
-				["at2035"] = <
+				["at0015"] = <
 					text = <"How often have you had to push or strain to begin urination?">
 					description = <"">
 				>
-				["at2036"] = <
-					text = <"Not at all">
-					description = <"">
-				>
-				["at2037"] = <
-					text = <"Less than 1 time in 5">
-					description = <"">
-				>
-				["at2038"] = <
-					text = <"Less than half the time">
-					description = <"">
-				>
-				["at2039"] = <
-					text = <"Abou half the time">
-					description = <"">
-				>
-				["at2040"] = <
-					text = <"More than half the time">
-					description = <"">
-				>
-				["at2041"] = <
-					text = <"Almost always">
-					description = <"">
-				>
-				["at2042"] = <
+				["at0016"] = <
 					text = <"How many times did you most typically get up to urinate from the time you went to bed until the time you got up in the morning?">
 					description = <"">
 				>
-				["at2043"] = <
+				["at0017"] = <
 					text = <"None">
 					description = <"">
 				>
-				["at2044"] = <
+				["at0018"] = <
 					text = <"1 time">
 					description = <"">
 				>
-				["at2045"] = <
+				["at0019"] = <
 					text = <"2 times">
 					description = <"">
 				>
-				["at2046"] = <
+				["at0020"] = <
 					text = <"3 times">
 					description = <"">
 				>
-				["at2047"] = <
+				["at0021"] = <
 					text = <"4 times">
 					description = <"">
 				>
-				["at2048"] = <
+				["at0022"] = <
 					text = <"5 times or more">
 					description = <"">
 				>
-				["at2049"] = <
+				["at0024"] = <
 					text = <"If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?">
 					description = <"">
 				>
-				["at2050"] = <
+				["at0025"] = <
 					text = <"delighted">
 					description = <"">
 				>
-				["at2051"] = <
+				["at0026"] = <
 					text = <"pleased">
 					description = <"">
 				>
-				["at2052"] = <
+				["at0027"] = <
 					text = <"mostly satisfied">
 					description = <"">
 				>
-				["at2053"] = <
+				["at0028"] = <
 					text = <"mixed, about equally satisfied and dissatisfied">
 					description = <"">
 				>
-				["at2054"] = <
+				["at0029"] = <
 					text = <"mostly dissatisfied">
 					description = <"">
 				>
-				["at2055"] = <
+				["at0030"] = <
 					text = <"unhappty">
 					description = <"">
 				>
-				["at2056"] = <
+				["at0031"] = <
 					text = <"terrible">
 					description = <"">
 				>
-				["at2057"] = <
+				["at0023"] = <
 					text = <"IPSS SumScore">
 					description = <"">
 				>
@@ -722,235 +482,115 @@ ontology
 					text = <"International prostate symptom score (IPSS)">
 					description = <"L'International Prostate Symptom Score (IPSS) est un instrument d'évaluation utilisé pour déterminer la sévérité des symptômes des voies urinaires basses associés à l'hyperplasie bénigne de la prostate (HBP). Il comprend sept questions sur les symptômes et une question sur la qualité de vie.">
 				>
-				["at2000"] = <
+				["at0004"] = <
 					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
 					description = <"">
 				>
-				["at2001"] = <
+				["at0005"] = <
 					text = <"Jamais">
 					description = <"">
 				>
-				["at2002"] = <
+				["at0006"] = <
 					text = <"Environ 1 fois sur 5 (<20%)">
 					description = <"">
 				>
-				["at2003"] = <
+				["at0007"] = <
 					text = <"Environ 1 fois sur 3">
 					description = <"">
 				>
-				["at2004"] = <
+				["at0008"] = <
 					text = <"Environ 1 fois sur 2 (env. 50%)">
 					description = <"">
 				>
-				["at2005"] = <
+				["at0009"] = <
 					text = <"Environ 2 fois sur 3">
 					description = <"">
 				>
-				["at2006"] = <
+				["at0010"] = <
 					text = <"Presque toujours">
 					description = <"">
 				>
-				["at2007"] = <
+				["at0011"] = <
 					text = <"Avec quelle fréquence avez-vous du uriner à nouveau moins de deux heures après avoir fini d'uriner?">
 					description = <"">
 				>
-				["at2008"] = <
-					text = <"Jamais">
-					description = <"">
-				>
-				["at2009"] = <
-					text = <"Environ 1 fois sur 5 (<20%)">
-					description = <"">
-				>
-				["at2010"] = <
-					text = <"Environ 1 fois sur 3">
-					description = <"">
-				>
-				["at2011"] = <
-					text = <"Environ 1 fois sur 2 (env. 50%)">
-					description = <"">
-				>
-				["at2012"] = <
-					text = <"Environ 2 fois sur 3">
-					description = <"">
-				>
-				["at2013"] = <
-					text = <"Presque toujours">
-					description = <"">
-				>
-				["at2014"] = <
+				["at0012"] = <
 					text = <"Avec quelle fréquence avez-vous eu une interruption du jet d'urine, c'est-à-dire démarrage du jet puis arret, puis redémarrage?">
 					description = <"">
 				>
-				["at2015"] = <
-					text = <"Jamais">
-					description = <"">
-				>
-				["at2016"] = <
-					text = <"Environ 1 fois sur 5 (<20%)">
-					description = <"">
-				>
-				["at2017"] = <
-					text = <"Environ 1 fois sur 3">
-					description = <"">
-				>
-				["at2018"] = <
-					text = <"Environ 1 fois sur 2 (env. 50%)">
-					description = <"">
-				>
-				["at2019"] = <
-					text = <"Environ 2 fois sur 3">
-					description = <"">
-				>
-				["at2020"] = <
-					text = <"Presque toujours">
-					description = <"">
-				>
-				["at2021"] = <
+				["at0013"] = <
 					text = <"Avec quelle fréquence avez-vous eu des difficultés à retarder le moment d'uriner?">
 					description = <"">
 				>
-				["at2022"] = <
-					text = <"Jamais">
-					description = <"">
-				>
-				["at2023"] = <
-					text = <"Environ 1 fois sur 5 (<20%)">
-					description = <"">
-				>
-				["at2024"] = <
-					text = <"Environ 1 fois sur 3">
-					description = <"">
-				>
-				["at2025"] = <
-					text = <"Environ 1 fois sur 2 (env. 50%)">
-					description = <"">
-				>
-				["at2026"] = <
-					text = <"Environ 2 fois sur 3">
-					description = <"">
-				>
-				["at2027"] = <
-					text = <"Presque toujours">
-					description = <"">
-				>
-				["at2028"] = <
+				["at0014"] = <
 					text = <"Avec quelle fréquence avez-vous eu une diminution de la force du jet d'urine?">
 					description = <"">
 				>
-				["at2029"] = <
-					text = <"Jamais">
-					description = <"">
-				>
-				["at2030"] = <
-					text = <"Environ 1 fois sur 5 (<20%)">
-					description = <"">
-				>
-				["at2031"] = <
-					text = <"Environ 1 fois sur 3">
-					description = <"">
-				>
-				["at2032"] = <
-					text = <"Environ 1 fois sur 2 (env. 50%)">
-					description = <"">
-				>
-				["at2033"] = <
-					text = <"Environ 2 fois sur 3">
-					description = <"">
-				>
-				["at2034"] = <
-					text = <"Presque toujours">
-					description = <"">
-				>
-				["at2035"] = <
+				["at0015"] = <
 					text = <"Avec quelle fréquence avez-vous du forcer ou pousser pour commencer à uriner?">
 					description = <"">
 				>
-				["at2036"] = <
-					text = <"Jamais">
-					description = <"">
-				>
-				["at2037"] = <
-					text = <"Environ 1 fois sur 5 (<20%)">
-					description = <"">
-				>
-				["at2038"] = <
-					text = <"Environ 1 fois sur 3">
-					description = <"">
-				>
-				["at2039"] = <
-					text = <"Environ 1 fois sur 2 (env. 50%)">
-					description = <"">
-				>
-				["at2040"] = <
-					text = <"Environ 2 fois sur 3">
-					description = <"">
-				>
-				["at2041"] = <
-					text = <"Presque toujours">
-					description = <"">
-				>
-				["at2042"] = <
+				["at0016"] = <
 					text = <"Combien de fois par nuit en moyenne, vous etes-vous levé pour uriner (entre le moment de votre coucher et celui de votre lever définitif du matin?)">
 					description = <"">
 				>
-				["at2043"] = <
+				["at0017"] = <
 					text = <"Jamais">
 					description = <"">
 				>
-				["at2044"] = <
+				["at0018"] = <
 					text = <"1 fois">
 					description = <"">
 				>
-				["at2045"] = <
+				["at0019"] = <
 					text = <"2 fois">
 					description = <"">
 				>
-				["at2046"] = <
+				["at0020"] = <
 					text = <"3 fois">
 					description = <"">
 				>
-				["at2047"] = <
+				["at0021"] = <
 					text = <"4 fois">
 					description = <"">
 				>
-				["at2048"] = <
+				["at0022"] = <
 					text = <"5 fois">
 					description = <"">
 				>
-				["at2049"] = <
+				["at0024"] = <
 					text = <"Comment vous sentiriez-vous si votre manière actuelle d'uriner ne devait plus changer à l'avenir?">
 					description = <"">
 				>
-				["at2050"] = <
+				["at0025"] = <
 					text = <"très satisfait">
 					description = <"">
 				>
-				["at2051"] = <
+				["at0026"] = <
 					text = <"satisfait">
 					description = <"">
 				>
-				["at2052"] = <
+				["at0027"] = <
 					text = <"plutot satisfait">
 					description = <"">
 				>
-				["at2053"] = <
+				["at0028"] = <
 					text = <"partagé (ni satisfait ni ennuyé)">
 					description = <"">
 				>
-				["at2054"] = <
+				["at0029"] = <
 					text = <"plutot ennuyé">
 					description = <"">
 				>
-				["at2055"] = <
+				["at0030"] = <
 					text = <"éprouvé">
 					description = <"">
 				>
-				["at2056"] = <
+				["at0031"] = <
 					text = <"très éprouvé">
 					description = <"">
 				>
-				["at2057"] = <
+				["at0023"] = <
 					text = <"IPSS SumScore">
 					description = <"">
 				>
@@ -978,235 +618,115 @@ ontology
 					text = <"International prostate symptom score (IPSS)">
 					description = <"L'International Prostate Symptom Score (IPSS) è uno strumento di valutazione utilizzato per determinare la gravità dei sintomi delle basse vie urinarie associati all'iperplasia prostatica benigna (IPB). Comprende sette domande sui sintomi e una domanda sulla qualità di vita.">
 				>
-				["at2000"] = <
+				["at0004"] = <
 					text = <"Quante volte ha avuto la sensazione che la sua vescica non era completamente vuota dopo avere urinato?">
 					description = <"">
 				>
-				["at2001"] = <
+				["at0005"] = <
 					text = <"Nessuna volta">
 					description = <"">
 				>
-				["at2002"] = <
+				["at0006"] = <
 					text = <"Una volta su 5 (<20%)">
 					description = <"">
 				>
-				["at2003"] = <
+				["at0007"] = <
 					text = <"Una volta su 3">
 					description = <"">
 				>
-				["at2004"] = <
+				["at0008"] = <
 					text = <"Circa la metà della volte (env. 50%)">
 					description = <"">
 				>
-				["at2005"] = <
+				["at0009"] = <
 					text = <"Piú della metà delle volte">
 					description = <"">
 				>
-				["at2006"] = <
+				["at0010"] = <
 					text = <"Quasi sempre">
 					description = <"">
 				>
-				["at2007"] = <
+				["at0011"] = <
 					text = <"Quante volte ha urinato meno di due ore dopo l’ultima minzione?">
 					description = <"">
 				>
-				["at2008"] = <
-					text = <"*Not at all (en)">
-					description = <"">
-				>
-				["at2009"] = <
-					text = <"Una volta su 5 (<20%)">
-					description = <"">
-				>
-				["at2010"] = <
-					text = <"Una volta su 3">
-					description = <"">
-				>
-				["at2011"] = <
-					text = <"Circa la metà della volte (env. 50%)">
-					description = <"">
-				>
-				["at2012"] = <
-					text = <"Piú della metà delle volte">
-					description = <"">
-				>
-				["at2013"] = <
-					text = <"Quasi sempre">
-					description = <"">
-				>
-				["at2014"] = <
+				["at0012"] = <
 					text = <"Le è mai capitato di dover urinare in più tempi?">
 					description = <"">
 				>
-				["at2015"] = <
-					text = <"*Not at all (en)">
-					description = <"">
-				>
-				["at2016"] = <
-					text = <"Una volta su 5 (<20%)">
-					description = <"">
-				>
-				["at2017"] = <
-					text = <"Una volta su 3">
-					description = <"">
-				>
-				["at2018"] = <
-					text = <"Circa la metà della volte (env. 50%)">
-					description = <"">
-				>
-				["at2019"] = <
-					text = <"Piú della metà delle volte">
-					description = <"">
-				>
-				["at2020"] = <
-					text = <"Quasi sempre">
-					description = <"">
-				>
-				["at2021"] = <
+				["at0013"] = <
 					text = <"Quante volte ha avuto difficoltà a ritardare la minzione?">
 					description = <"">
 				>
-				["at2022"] = <
-					text = <"*Not at all (en)">
-					description = <"">
-				>
-				["at2023"] = <
-					text = <"Una volta su 5 (<20%)">
-					description = <"">
-				>
-				["at2024"] = <
-					text = <"Una volta su 3">
-					description = <"">
-				>
-				["at2025"] = <
-					text = <"Circa la metà della volte (env. 50%)">
-					description = <"">
-				>
-				["at2026"] = <
-					text = <"Piú della metà delle volte">
-					description = <"">
-				>
-				["at2027"] = <
-					text = <"Quasi sempre">
-					description = <"">
-				>
-				["at2028"] = <
+				["at0014"] = <
 					text = <"Quanto spesso il getto urinario le è parso debole?">
 					description = <"">
 				>
-				["at2029"] = <
-					text = <"*Not at all (en)">
-					description = <"">
-				>
-				["at2030"] = <
-					text = <"Una volta su 5 (<20%)">
-					description = <"">
-				>
-				["at2031"] = <
-					text = <"Una volta su 3">
-					description = <"">
-				>
-				["at2032"] = <
-					text = <"Circa la metà della volte (env. 50%)">
-					description = <"">
-				>
-				["at2033"] = <
-					text = <"Piú della metà delle volte">
-					description = <"">
-				>
-				["at2034"] = <
-					text = <"Quasi sempre">
-					description = <"">
-				>
-				["at2035"] = <
+				["at0015"] = <
 					text = <"Quante volte ha dovuto sforzarsi per iniziare a urinare?">
 					description = <"">
 				>
-				["at2036"] = <
-					text = <"*Not at all (en)">
-					description = <"">
-				>
-				["at2037"] = <
-					text = <"Una volta su 5 (<20%)">
-					description = <"">
-				>
-				["at2038"] = <
-					text = <"Una volta su 3">
-					description = <"">
-				>
-				["at2039"] = <
-					text = <"Circa la metà della volte (env. 50%)">
-					description = <"">
-				>
-				["at2040"] = <
-					text = <"Piú della metà delle volte">
-					description = <"">
-				>
-				["at2041"] = <
-					text = <"Quasi sempre">
-					description = <"">
-				>
-				["at2042"] = <
+				["at0016"] = <
 					text = <"Quante volte la notte, in media, si è dovuto alzare per andare ad urinare?">
 					description = <"">
 				>
-				["at2043"] = <
+				["at0017"] = <
 					text = <"Mai">
 					description = <"">
 				>
-				["at2044"] = <
+				["at0018"] = <
 					text = <"Una volte">
 					description = <"">
 				>
-				["at2045"] = <
+				["at0019"] = <
 					text = <"Due volte">
 					description = <"">
 				>
-				["at2046"] = <
+				["at0020"] = <
 					text = <"Tre volte">
 					description = <"">
 				>
-				["at2047"] = <
+				["at0021"] = <
 					text = <"Quattro volte">
 					description = <"">
 				>
-				["at2048"] = <
+				["at0022"] = <
 					text = <"Cinque volte">
 					description = <"">
 				>
-				["at2049"] = <
+				["at0024"] = <
 					text = <"Se dovesse trascorrere il resto della sua vita con la condizione urinaria attuale, come si sentirebbe?">
 					description = <"">
 				>
-				["at2050"] = <
+				["at0025"] = <
 					text = <"Bene">
 					description = <"">
 				>
-				["at2051"] = <
+				["at0026"] = <
 					text = <"Soddisfatto">
 					description = <"">
 				>
-				["at2052"] = <
+				["at0027"] = <
 					text = <"Abbastanze soddisfatto">
 					description = <"">
 				>
-				["at2053"] = <
+				["at0028"] = <
 					text = <"Così Così">
 					description = <"">
 				>
-				["at2054"] = <
+				["at0029"] = <
 					text = <"Relativamente insoddisfatto">
 					description = <"">
 				>
-				["at2055"] = <
+				["at0030"] = <
 					text = <"Male">
 					description = <"">
 				>
-				["at2056"] = <
+				["at0031"] = <
 					text = <"Molto male">
 					description = <"">
 				>
-				["at2057"] = <
+				["at0023"] = <
 					text = <"IPSS SumScore">
 					description = <"">
 				>
