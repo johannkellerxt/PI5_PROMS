@@ -85,7 +85,7 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"35b99537c536714ab5229157f9825363">
+		["MD5-CAM-1.0.1"] = <"ec054f4df55e8a67952d9831132842d9">
 		["build_uid"] = <"95a8073f-92df-47e1-96c4-e4f7bc808827">
 		["ip_acknowledgements"] = <"The BREAST-Q Reconstruction module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast reconstruction surgery.">
 	>
