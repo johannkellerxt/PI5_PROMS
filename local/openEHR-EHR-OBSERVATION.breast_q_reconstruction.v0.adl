@@ -85,9 +85,9 @@ Memorial Sloan Kettering Cancer Center and University of British Columbia. BREAS
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"5c241a668c54553141f0ea4dfa4d8e47">
 		["build_uid"] = <"95a8073f-92df-47e1-96c4-e4f7bc808827">
 		["ip_acknowledgements"] = <"The BREAST-Q Reconstruction module was developed by the Memorial Sloan Kettering Cancer Center and the University of British Columbia to measure patient-reported outcomes following breast reconstruction surgery.">
-		["MD5-CAM-1.0.1"] = <"35b99537c536714ab5229157f9825363">
 	>
 
 definition
@@ -707,10 +707,6 @@ definition
 													4|[local::at2353]
 												}
 											}
-										}
-									}
-									CLUSTER[at9008] occurrences matches {0..1} matches {    -- In the past week, how satisfied or dissatisfied have you been with:
-										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2354] occurrences matches {0..1} matches {    -- The amount of rippling (wrinkling) of your implant(s) that you can feel?
 												value matches {
 													1|[local::at2355],
@@ -855,10 +851,6 @@ definition
 													4|[local::at2443]
 												}
 											}
-										}
-									}
-									CLUSTER[at9011] occurrences matches {0..1} matches {    -- Did you feel that they:
-										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2444] occurrences matches {0..1} matches {    -- Treated you with respect?
 												value matches {
 													1|[local::at2445],
@@ -919,10 +911,6 @@ definition
 													4|[local::at2478]
 												}
 											}
-										}
-									}
-									CLUSTER[at9013] occurrences matches {0..1} matches {    -- These questions ask about your breast cancer surgeon.  Did you feel that he/she:
-										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at2479] occurrences matches {0..1} matches {    -- Was sensitive?
 												value matches {
 													1|[local::at2480],
@@ -3943,10 +3931,6 @@ ontology
 					description = <"Wenn Sie in beiden Brüsten Implantate haben, denken Sie bei der Beantwortung der Fragen an die Brust, mit der Sie weniger zufrieden sind.
 Wie zufrieden waren Sie in der letzten Woche mit dem Folgenden:">
 				>
-				["at9008"] = <
-					text = <"Wie zufrieden waren Sie in der letzten Woche mit dem Folgenden:">
-					description = <"Wie zufrieden waren Sie in der letzten Woche mit dem Folgenden:">
-				>
 				["at9009"] = <
 					text = <"Wie zufrieden waren Sie mit den Informationen, die Sie von Ihrem/Ihrer Chirurgen/Chirurgin zu folgenden Dingen erhalten haben:">
 					description = <"Wie zufrieden waren Sie mit den Informationen, die Sie von Ihrem/Ihrer Chirurgen/Chirurgin zu folgenden Dingen erhalten haben:">
@@ -3956,18 +3940,10 @@ Wie zufrieden waren Sie in der letzten Woche mit dem Folgenden:">
 					description = <"In den folgenden Fragen geht es um die Mitarbeiter in der Verwaltung (z.B. Sekretariat).
 Hatten Sie das Gefühl, dass sie:">
 				>
-				["at9011"] = <
-					text = <"Hatten Sie das Gefühl, dass sie:">
-					description = <"Hatten Sie das Gefühl, dass sie:">
-				>
 				["at9012"] = <
 					text = <"In den folgenden Fragen geht es um Ihren Chirurgen/Ihre Chirurgin.  Hatten Sie das Gefühl, dass:">
 					description = <"In den folgenden Fragen geht es um Ihren Chirurgen/Ihre Chirurgin.
 Hatten Sie das Gefühl, dass:">
-				>
-				["at9013"] = <
-					text = <"Hatten Sie das Gefühl, dass:">
-					description = <"Hatten Sie das Gefühl, dass:">
 				>
 				["at9014"] = <
 					text = <"In den folgenden Fragen geht es um die Mitglieder des medizinischen Teams außer dem Chirurgen.  Hatten Sie das Gefühl, dass sie:">
@@ -6521,10 +6497,6 @@ With your radiated breast(s) in mind, in the past week, how much have you been b
 					text = <"If you have implants in both breasts, answer these questions thinking of the breast you are least satisfied with. In the past week, how satisfied or dissatisfied have you been with:">
 					description = <"If you have implants in both breasts, answer these questions thinking of the breast you are least satisfied with. In the past week, how satisfied or dissatisfied have you been with:">
 				>
-				["at9008"] = <
-					text = <"In the past week, how satisfied or dissatisfied have you been with:">
-					description = <"In the past week, how satisfied or dissatisfied have you been with:">
-				>
 				["at9009"] = <
 					text = <"How satisfied or dissatisfied were you with the information you received from your surgeon about:">
 					description = <"How satisfied or dissatisfied were you with the information you received from your surgeon about:">
@@ -6534,16 +6506,7 @@ With your radiated breast(s) in mind, in the past week, how much have you been b
 					description = <"These questions ask about members of the office staff (e.g., secretaries).
 Did you feel that they:">
 				>
-				["at9011"] = <
-					text = <"Did you feel that they:">
-					description = <"Did you feel that they:">
-				>
 				["at9012"] = <
-					text = <"These questions ask about your breast cancer surgeon.  Did you feel that he/she:">
-					description = <"These questions ask about your breast cancer surgeon.
-Did you feel that he/she:">
-				>
-				["at9013"] = <
 					text = <"These questions ask about your breast cancer surgeon.  Did you feel that he/she:">
 					description = <"These questions ask about your breast cancer surgeon.
 Did you feel that he/she:">
@@ -9099,10 +9062,6 @@ Did you feel that they:">
 					text = <"Si vous avez deux prothèses, répondez aux questions au regard du sein avec lequel vous êtes moins satisfaite. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 					description = <"Si vous avez deux prothèses, répondez aux questions au regard du sein avec lequel vous êtes moins satisfaite. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
 				>
-				["at9008"] = <
-					text = <"Si vous avez deux prothèses, répondez aux questions au regard du sein avec lequel vous êtes moins satisfaite. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
-					description = <"Si vous avez deux prothèses, répondez aux questions au regard du sein avec lequel vous êtes moins satisfaite. Au cours des 7 derniers jours, avez-vous été satisfaite ou non :">
-				>
 				["at9009"] = <
 					text = <"Avez-vous été satisfaite ou non des informations fournies par votre chirurgien dans les domaines suivants :">
 					description = <"Avez-vous été satisfaite ou non des informations fournies par votre chirurgien dans les domaines suivants :">
@@ -9111,15 +9070,7 @@ Did you feel that they:">
 					text = <"Les questions ci-dessous concernent les membres du personnel administratif (secrétaires et infirmières des cabinets médicaux ou infirmières cliniciennes). Avez-vous eu l’impression qu’ils:">
 					description = <"Les questions ci-dessous concernent les membres du personnel administratif (secrétaires et infirmières des cabinets médicaux ou infirmières cliniciennes). Avez-vous eu l’impression qu’ils:">
 				>
-				["at9011"] = <
-					text = <"Les questions ci-dessous concernent les membres du personnel administratif (secrétaires et infirmières des cabinets médicaux ou infirmières cliniciennes). Avez-vous eu l’impression qu’ils:">
-					description = <"Les questions ci-dessous concernent les membres du personnel administratif (secrétaires et infirmières des cabinets médicaux ou infirmières cliniciennes). Avez-vous eu l’impression qu’ils:">
-				>
 				["at9012"] = <
-					text = <"Les questions ci-dessous concernent votre chirurgien. Avez-vous eu l’impression qu’il/elle :">
-					description = <"Les questions ci-dessous concernent votre chirurgien. Avez-vous eu l’impression qu’il/elle :">
-				>
-				["at9013"] = <
 					text = <"Les questions ci-dessous concernent votre chirurgien. Avez-vous eu l’impression qu’il/elle :">
 					description = <"Les questions ci-dessous concernent votre chirurgien. Avez-vous eu l’impression qu’il/elle :">
 				>
@@ -11673,10 +11624,6 @@ Did you feel that they:">
 					text = <"Se hai protesi su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Nell'ultima settimana, quanto sei soddisfatta o insoddisfatta di:">
 					description = <"Se hai protesi su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Nell'ultima settimana, quanto sei soddisfatta o insoddisfatta di:">
 				>
-				["at9008"] = <
-					text = <"Se hai protesi su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Nell'ultima settimana, quanto sei soddisfatta o insoddisfatta di:">
-					description = <"Se hai protesi su entrambi i seni, rispondi a queste domande pensando al seno per cui ti senti meno soddisfatta. Nell'ultima settimana, quanto sei soddisfatta o insoddisfatta di:">
-				>
 				["at9009"] = <
 					text = <"Quanto sei rimasta soddisfatta o insoddisfatta delle informazioni ricevute dal chirurgo che ti ha effettuato l’intervento riguardo a:">
 					description = <"Quanto sei rimasta soddisfatta o insoddisfatta delle informazioni ricevute dal chirurgo che ti ha effettuato l’intervento riguardo a:">
@@ -11685,15 +11632,7 @@ Did you feel that they:">
 					text = <"Queste domande riguardano i membri dello studio medico (ad esempio segretarie, infermiere di studio). Hai avuto l’impressione che:">
 					description = <"Queste domande riguardano i membri dello studio medico (ad esempio segretarie, infermiere di studio). Hai avuto l’impressione che:">
 				>
-				["at9011"] = <
-					text = <"Queste domande riguardano i membri dello studio medico (ad esempio segretarie, infermiere di studio). Hai avuto l’impressione che:">
-					description = <"Queste domande riguardano i membri dello studio medico (ad esempio segretarie, infermiere di studio). Hai avuto l’impressione che:">
-				>
 				["at9012"] = <
-					text = <"Queste domande riguardano il chirurgo che ti ha effettauto l’intervento. Hai avuto l’impressione che lui/lei:">
-					description = <"Queste domande riguardano il chirurgo che ti ha effettauto l’intervento. Hai avuto l’impressione che lui/lei:">
-				>
-				["at9013"] = <
 					text = <"Queste domande riguardano il chirurgo che ti ha effettauto l’intervento. Hai avuto l’impressione che lui/lei:">
 					description = <"Queste domande riguardano il chirurgo che ti ha effettauto l’intervento. Hai avuto l’impressione che lui/lei:">
 				>
