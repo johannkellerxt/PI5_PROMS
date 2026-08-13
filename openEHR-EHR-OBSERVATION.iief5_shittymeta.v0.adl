@@ -48,44 +48,78 @@ description
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"Zur Erfassung der Antworten auf jedes der fünf Items des Fragebogens International Index of Erectile Function-5 (IIEF-5) sowie der berechneten Gesamtpunktzahl.">
+			purpose = <"Zur Erfassung der Antworten auf die fünf Items des Sexual Health Inventory for Men (SHIM), auch als International Index of Erectile Function-5 (IIEF-5) bezeichnet, sowie des zugehörigen Gesamtscores.">
 			keywords = <"IIEF-5, SHIM, Internationaler Index der erektilen Funktion, Erektile Dysfunktion, Sexuelle Funktion, Patientenberichtetes Ergebnis, Urologie", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Zur Dokumentation der vom Patienten berichteten erektilen Funktion verwenden. Jedes der fünf Fragebogenitems wird gemäß dem IIEF-5-Bewertungssystem bewertet und ergibt eine Gesamtpunktzahl von 5 bis 25, wobei niedrigere Werte auf eine schwerere erektile Dysfunktion hinweisen. Der IIEF-5 ist ein Screening- und Bewertungsinstrument und stellt für sich allein keine Diagnose dar. Diese Darstellung ist unter der Creative Commons Attribution-ShareAlike 4.0 International License lizenziert.">
+			copyright = <"© openEHR Foundation">
+			use = <"Zur Erfassung und zum Austausch der Antworten und Ergebnisse des Sexual Health Inventory for Men (SHIM/IIEF-5) in digitalen Systemen verwenden.
+
+Obwohl openEHR-Archetypen unter einer offenen Lizenz frei verfügbar sind, sind die spezifischen Inhalte des SHIM/IIEF-5 in diesem Archetyp urheberrechtlich geschützt. Jede Nutzung dieses Archetyps in Implementierungen muss den vom Rechteinhaber festgelegten Bedingungen entsprechen.
+
+Copyright holder: IQVIA Inc. (2000).
+Licensing information: https://coas.iqvia.com/COAs/sexual-health-inventory-for-men
+
+Für die Nutzung des SHIM/IIEF-5 ist eine Lizenz bei IQVIA anzufordern.">
+			misuse = <"Nicht zur Dokumentation einer Diagnose einer erektilen Dysfunktion verwenden; hierfür den Archetyp EVALUATION.problem_diagnosis verwenden.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record the responses to each of the five items of the International Index of Erectile Function-5 (IIEF-5) questionnaire together with the calculated total score.">
+			purpose = <"To record responses to the five items of the Sexual Health Inventory for Men (SHIM), also known as the International Index of Erectile Function-5 (IIEF-5), together with the corresponding total score.">
 			keywords = <"IIEF-5, SHIM, International Index of Erectile Function, Erectile dysfunction, Sexual function, Patient reported outcome, Urology", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Use to document patient-reported erectile function. Each of the five questionnaire items is scored according to the IIEF-5 scoring system, producing a total score ranging from 5 to 25, with lower scores indicating more severe erectile dysfunction. The IIEF-5 is a screening and assessment instrument and does not by itself establish a diagnosis. This representation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.">
+			copyright = <"© openEHR Foundation">
+			use = <"Use to record and exchange responses and results for the Sexual Health Inventory for Men (SHIM/IIEF-5) in digital systems.
+
+While openEHR archetypes are freely available under an open licence, the specific SHIM/IIEF-5 content in this archetype is copyright protected. Any use of this archetype within implementations must comply with the terms established by the copyright holder.
+
+Copyright holder: IQVIA Inc. (2000).
+Licensing information: https://coas.iqvia.com/COAs/sexual-health-inventory-for-men
+
+A licence must be requested from IQVIA for use of the SHIM/IIEF-5.">
+			misuse = <"Not to be used to record a diagnosis of erectile dysfunction; use the EVALUATION.problem_diagnosis archetype for this purpose.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
-			purpose = <"Registrare le risposte a ciascuno dei cinque item del questionario International Index of Erectile Function-5 (IIEF-5), insieme al punteggio totale calcolato.">
+			purpose = <"Registrare le risposte ai cinque item del Sexual Health Inventory for Men (SHIM), noto anche come International Index of Erectile Function-5 (IIEF-5), insieme al corrispondente punteggio totale.">
 			keywords = <"IIEF-5, SHIM, Indice Internazionale della Funzione Erettile, Disfunzione erettile, Funzione sessuale, Esito riferito dal paziente, Urologia", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Utilizzare per documentare la funzione erettile riferita dal paziente. Ciascuno dei cinque item del questionario è valutato secondo il sistema di punteggio dell'IIEF-5, producendo un punteggio totale compreso tra 5 e 25, in cui punteggi inferiori indicano una disfunzione erettile più grave. L'IIEF-5 è uno strumento di screening e valutazione e non consente, da solo, di stabilire una diagnosi. Questa rappresentazione è concessa con licenza Creative Commons Attribution-ShareAlike 4.0 International.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utilizzare per registrare e scambiare in sistemi digitali le risposte e i risultati del Sexual Health Inventory for Men (SHIM/IIEF-5).
+
+Sebbene gli archetipi openEHR siano liberamente disponibili con una licenza aperta, il contenuto specifico SHIM/IIEF-5 di questo archetipo è protetto dal diritto d'autore. Qualsiasi utilizzo di questo archetipo nelle implementazioni deve rispettare le condizioni stabilite dal titolare dei diritti.
+
+Copyright holder: IQVIA Inc. (2000).
+Licensing information: https://coas.iqvia.com/COAs/sexual-health-inventory-for-men
+
+Per utilizzare lo SHIM/IIEF-5 è necessario richiedere una licenza a IQVIA.">
+			misuse = <"Non utilizzare per registrare una diagnosi di disfunzione erettile; a questo scopo utilizzare l'archetipo EVALUATION.problem_diagnosis.">
 		>
 		["fr"] = <
 			language = <[ISO_639-1::fr]>
-			purpose = <"Enregistrer les réponses à chacun des cinq items du questionnaire International Index of Erectile Function-5 (IIEF-5) ainsi que le score total calculé.">
+			purpose = <"Enregistrer les réponses aux cinq items du Sexual Health Inventory for Men (SHIM), également appelé International Index of Erectile Function-5 (IIEF-5), ainsi que le score total correspondant.">
 			keywords = <"IIEF-5, SHIM, Indice international de la fonction érectile, Dysfonction érectile, Fonction sexuelle, Résultat rapporté par le patient, Urologie", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Utiliser pour documenter la fonction érectile rapportée par le patient. Chacun des cinq items est coté selon le système de cotation IIEF-5, produisant un score total de 5 à 25, les scores les plus faibles indiquant une dysfonction érectile plus sévère. L'IIEF-5 est un instrument de dépistage et d'évaluation et ne permet pas, à lui seul, d'établir un diagnostic. Cette représentation est sous licence Creative Commons Attribution-ShareAlike 4.0 International.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utiliser pour enregistrer et échanger dans des systèmes numériques les réponses et les résultats du Sexual Health Inventory for Men (SHIM/IIEF-5).
+
+Bien que les archétypes openEHR soient librement disponibles sous une licence ouverte, le contenu spécifique du SHIM/IIEF-5 dans cet archétype est protégé par le droit d'auteur. Toute utilisation de cet archétype dans une implémentation doit respecter les conditions établies par le titulaire des droits.
+
+Copyright holder: IQVIA Inc. (2000).
+Licensing information: https://coas.iqvia.com/COAs/sexual-health-inventory-for-men
+
+Une licence doit être demandée à IQVIA pour utiliser le SHIM/IIEF-5.">
+			misuse = <"Ne pas utiliser pour enregistrer un diagnostic de dysfonction érectile ; utiliser l'archétype EVALUATION.problem_diagnosis à cette fin.">
 		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"Rosen RC, Cappelleri JC, Smith MD, Lipsky J, Peña BM. Development and evaluation of an abridged, 5-item version of the International Index of Erectile Function (IIEF-5) as a diagnostic tool for erectile dysfunction. International Journal of Impotence Research. 1999;11(6):319-326.">
+		["references"] = <"Rosen RC, Cappelleri JC, Smith MD, Lipsky J, Peña BM. Development and evaluation of an abridged, 5-item version of the International Index of Erectile Function (IIEF-5) as a diagnostic tool for erectile dysfunction. International Journal of Impotence Research. 1999;11(6):319-326.
+
+IQVIA. Sexual Health Inventory for Men (SHIM). Clinical Outcome Assessments. Copyright holder and licensing information. https://coas.iqvia.com/COAs/sexual-health-inventory-for-men">
 		["current_contact"] = <"">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"a62872051831537912002f22aff3c3d8">
 		["build_uid"] = <"9cc46d45-b954-4441-93a2-648b4df628b1">
-		["ip_acknowledgements"] = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña.">
+		["ip_acknowledgements"] = <"The Sexual Health Inventory for Men (SHIM), also known as IIEF-5, was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña. IQVIA currently identifies IQVIA Inc. (2000) as the copyright holder and manages licensing for use of the instrument.">
 	>
 
 definition
