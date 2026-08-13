@@ -1,0 +1,770 @@
+archetype (adl_version=1.4; uid=8c4f6abd-8488-45c3-83dd-fd48d9e845fb)
+	openEHR-EHR-OBSERVATION.ipss_shittymeta.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+		["fr"] = <
+			language = <[ISO_639-1::fr]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+	>
+
+description
+	original_author = <
+		["date"] = <"2026-05-08">
+		["name"] = <"Johann Keller">
+		["organisation"] = <"x-tention Informationstechnologie AG">
+		["email"] = <"johann.keller@x-tention.ch">
+	>
+	lifecycle_state = <"unmanaged">
+	other_contributors = <"Sol Fustinana, University Hospital Basel, Switzerland","Olha Nikolaieva, University Hospital Basel, Switzerland","Maren Diepenbruck, University Hospital Basel, Switzerland">
+	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"Zur Erfassung der Antworten auf die einzelnen Items des Internationalen Prostata-Symptom-Scores (IPSS), des Gesamtsymptomscores und der separat bewerteten Lebensqualität.">
+			keywords = <"I-PSS, IPSS, Internationaler Prostata-Symptom-Score, Prostata, Benigne Prostatahyperplasie, BPH, Untere Harnwegssymptome", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Zur Dokumentation des Internationalen Prostata-Symptom-Scores (IPSS) verwenden. Die sieben Symptomitems erfassen unvollständige Blasenentleerung, erhöhte Miktionsfrequenz, intermittierenden Harnfluss, Harndrang, schwachen Harnstrahl, Pressen beim Wasserlassen und Nykturie. Die Symptomitems ergeben zusammen einen Gesamtsymptomscore von 0 bis 35. Das Item zur Lebensqualität wird separat erfasst und nicht in den Gesamtsymptomscore einbezogen. Die at-Codes auf Ebene der Fragen sind, soweit zutreffend, an die im bestehenden openEHR-IPSS-Archetyp verwendeten Codes angeglichen, um die Konsistenz zwischen den Repräsentationen zu unterstützen; dieser Archetyp wurde im Übrigen unabhängig entwickelt.">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To record responses to the individual International Prostate Symptom Score (IPSS) items, the total symptom score, and the separate quality of life assessment.">
+			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostate, Benign prostatic hyperplasia, BPH, Lower urinary tract symptoms", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Use to document the International Prostate Symptom Score (IPSS). The seven symptom items assess incomplete emptying, frequency, intermittency, urgency, weak urinary stream, straining, and nocturia. Each symptom item contributes to a total symptom score ranging from 0 to 35. The quality of life item is recorded separately and is not included in the total symptom score. Question-level at-codes are aligned, where applicable, with those used in the existing openEHR IPSS archetype to support consistency between representations; this archetype was otherwise developed independently.">
+		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			purpose = <"Registrare le risposte ai singoli item dell'International Prostate Symptom Score (IPSS), il punteggio totale dei sintomi e la valutazione separata della qualità di vita.">
+			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostata, Iperplasia prostatica benigna, IPB, Sintomi delle basse vie urinarie", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Utilizzare per documentare l'International Prostate Symptom Score (IPSS). I sette item relativi ai sintomi valutano lo svuotamento incompleto della vescica, la frequenza minzionale, l'intermittenza del flusso, l'urgenza minzionale, la debolezza del getto urinario, lo sforzo durante la minzione e la nicturia. Gli item relativi ai sintomi producono un punteggio totale compreso tra 0 e 35. L'item relativo alla qualità di vita viene registrato separatamente e non è incluso nel punteggio totale dei sintomi. Ove applicabile, i codici at a livello delle domande sono allineati a quelli utilizzati nell'archetipo openEHR IPSS esistente per favorire la coerenza tra le rappresentazioni; il presente archetipo è stato per il resto sviluppato in modo indipendente.">
+		>
+		["fr"] = <
+			language = <[ISO_639-1::fr]>
+			purpose = <"Enregistrer les réponses aux différents items de l'International Prostate Symptom Score (IPSS), le score total des symptômes et l'évaluation distincte de la qualité de vie.">
+			keywords = <"I-PSS, IPSS, Score international des symptômes prostatiques, Prostate, Hyperplasie bénigne de la prostate, HBP, Symptômes des voies urinaires basses", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Utiliser pour documenter l'International Prostate Symptom Score (IPSS). Les sept items relatifs aux symptômes évaluent la vidange incomplète de la vessie, la fréquence des mictions, l'intermittence du jet, l'urgence mictionnelle, la faiblesse du jet urinaire, la poussée lors de la miction et la nycturie. Les items relatifs aux symptômes donnent un score total compris entre 0 et 35. L'item relatif à la qualité de vie est enregistré séparément et n'est pas inclus dans le score total des symptômes. Lorsque cela est applicable, les codes at au niveau des questions sont alignés sur ceux utilisés dans l'archétype openEHR IPSS existant afin de favoriser la cohérence entre les représentations ; cet archétype a par ailleurs été développé indépendamment.">
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["references"] = <"Barry MJ, Fowler FJ Jr, O'Leary MP, Bruskewitz RC, Holtgrewe HL, Mebust WK, Cockett ATK. The American Urological Association symptom index for benign prostatic hyperplasia. Journal of Urology. 1992;148(5):1549-1557. doi:10.1016/S0022-5347(17)36966-5.
+
+Badía X, García-Losa M, Dal-Ré R. Ten-language translation and harmonization of the International Prostate Symptom Score: developing a methodology for multinational clinical trials. European Urology. 1997;31(2):129-140. doi:10.1159/000474438.
+
+International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1. Referenced only for alignment of corresponding question-level at-codes; the present archetype was developed independently.">
+		["current_contact"] = <"">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"5805ec9411b03bc63844cdd436e0002b">
+		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
+		["ip_acknowledgements"] = <"Public domain">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- ipss_shittymeta
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at9000] occurrences matches {0..1} matches {    -- Over the past month.
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- How often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0011] occurrences matches {0..1} matches {    -- How often have you had to urinate again less than two hours after you finished urinating?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0012] occurrences matches {0..1} matches {    -- How often have you found you stopped and started again several times when you urinated?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0013] occurrences matches {0..1} matches {    -- How difficult have you found it to postpone urination?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0014] occurrences matches {0..1} matches {    -- How often have you had a weak urinary stream?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0015] occurrences matches {0..1} matches {    -- How often have you had to push or strain to begin urination?
+												value matches {
+													0|[local::at0005],
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0016] occurrences matches {0..1} matches {    -- How many times did you most typically get up to urinate from the time you went to bed until the time you got up in the morning?
+												value matches {
+													0|[local::at0017],
+													1|[local::at0018],
+													2|[local::at0019],
+													3|[local::at0020],
+													4|[local::at0021],
+													5|[local::at0022]
+												}
+											}
+										}
+									}
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Total Score
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..35|}
+											}
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?
+										value matches {
+											0|[local::at0025],
+											1|[local::at0026],
+											2|[local::at0027],
+											3|[local::at0028],
+											4|[local::at0029],
+											5|[local::at0030],
+											6|[local::at0031]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at9001] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"ipss_shittymeta">
+					description = <"Der Internationale Prostata-Symptom-Score (IPSS) ist ein Bewertungsinstrument zur Beurteilung des Schweregrads von Symptomen der unteren Harnwege im Zusammenhang mit einer benignen Prostatahyperplasie (BPH). Er umfasst sieben Symptomfragen und eine Frage zur Lebensqualität.">
+				>
+				["at0004"] = <
+					text = <"Wie oft hatten Sie das Gefühl, dass Ihre Blase nach dem Wasserlassen nicht ganz entleert war?">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Nie">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Seltener als in 1 von 5 Fällen (<20%)">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Seltener als in der Hälfte aller Fälle">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Ungefähr in der Hälfte aller Fälle (ca. 50%)">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"In mehr als der Hälfte aller Fälle">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"fast immer">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Wie oft mussten Sie innerhalb von 2 Stunden erneut Wasser lassen?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Wie oft mussten Sie beim Wasserlassen mehrmals aufhören und wieder neu beginnen (Harnstottern)?">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Wie oft hatten Sie Schwierigkeiten, das Wasserlassen hinauszuzögern?">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Wie oft hatten Sie einen schwachen Strahl beim Wasserlassen?">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Wie oft mussten Sie pressen oder sich anstrengen, um mit dem Wasserlassen zu beginnen?">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Wie oft sind Sie iim Durchschnitt nachts aufgestanden, um Wasser zu lassen. Massgebend ist der Zeitraum vom Zubettgehen bis zum Aufstehen am Morgen.">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Nie">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Einmal">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Zweimal">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Dreimal">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Viermal">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Fünfmal oder mehr">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Wie würden Sie sich fühlen, wenn sich Ihre jetzigen Symptome beim Wasserlassen in Ihrem weiteren Leben nicht mehr ändern würden?">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"ausgezeichnet">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"zufrieden">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"überwiegend zufrieden">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"gemischt, teils zufrieden, teils unzufrieden">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"überwiegend unzufrieden">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"unglücklich">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"sehr schlecht">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Total Score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Alle Angaben beziehen sich auf die letzten 4 Wochen.">
+					description = <"Alle Angaben beziehen sich auf die letzten 4 Wochen.">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"ipss_shittymeta">
+					description = <"The International Prostate Symptom Score (IPSS) is an assessment instrument used to evaluate the severity of lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). It consists of seven symptom questions and one quality of life question.">
+				>
+				["at0004"] = <
+					text = <"How often have you had a sensation of not emptying your bladder completely ater you fnisih urinating?">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Less than 1 time in 5">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Less than half the time">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Abou half the time">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"More than half the time">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Almost always">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"How often have you had to urinate again less than two hours after you finished urinating?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"How often have you found you stopped and started again several times when you urinated?">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"How difficult have you found it to postpone urination?">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"How often have you had a weak urinary stream?">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"How often have you had to push or strain to begin urination?">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"How many times did you most typically get up to urinate from the time you went to bed until the time you got up in the morning?">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"None">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"1 time">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"2 times">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"3 times">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"4 times">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"5 times or more">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"delighted">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"pleased">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"mostly satisfied">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"mixed, about equally satisfied and dissatisfied">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"mostly dissatisfied">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"unhappty">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"terrible">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Total Score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Over the past month.">
+					description = <"Over the past month.">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["fr"] = <
+			items = <
+				["at0000"] = <
+					text = <"ipss_shittymeta">
+					description = <"L'International Prostate Symptom Score (IPSS) est un instrument d'évaluation utilisé pour déterminer la sévérité des symptômes des voies urinaires basses associés à l'hyperplasie bénigne de la prostate (HBP). Il comprend sept questions sur les symptômes et une question sur la qualité de vie.">
+				>
+				["at0004"] = <
+					text = <"Avec quelle fréquence avez-vous eu la sensation que votre vessie n'était pas complètement vidée après avoir uriné?">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Jamais">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Environ 1 fois sur 5 (<20%)">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Environ 1 fois sur 3">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Environ 1 fois sur 2 (env. 50%)">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Environ 2 fois sur 3">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Presque toujours">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Avec quelle fréquence avez-vous du uriner à nouveau moins de deux heures après avoir fini d'uriner?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Avec quelle fréquence avez-vous eu une interruption du jet d'urine, c'est-à-dire démarrage du jet puis arret, puis redémarrage?">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Avec quelle fréquence avez-vous eu des difficultés à retarder le moment d'uriner?">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Avec quelle fréquence avez-vous eu une diminution de la force du jet d'urine?">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Avec quelle fréquence avez-vous du forcer ou pousser pour commencer à uriner?">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Combien de fois par nuit en moyenne, vous etes-vous levé pour uriner (entre le moment de votre coucher et celui de votre lever définitif du matin?)">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Jamais">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"1 fois">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"2 fois">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"3 fois">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"4 fois">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"5 fois">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Comment vous sentiriez-vous si votre manière actuelle d'uriner ne devait plus changer à l'avenir?">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"très satisfait">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"satisfait">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"plutot satisfait">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"partagé (ni satisfait ni ennuyé)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"plutot ennuyé">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"éprouvé">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"très éprouvé">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Total Score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Toutes les données se réfèrent aux 4 dernières semaines.">
+					description = <"Toutes les données se réfèrent aux 4 dernières semaines.">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["it"] = <
+			items = <
+				["at0000"] = <
+					text = <"ipss_shittymeta">
+					description = <"L'International Prostate Symptom Score (IPSS) è uno strumento di valutazione utilizzato per determinare la gravità dei sintomi delle basse vie urinarie associati all'iperplasia prostatica benigna (IPB). Comprende sette domande sui sintomi e una domanda sulla qualità di vita.">
+				>
+				["at0004"] = <
+					text = <"Quante volte ha avuto la sensazione che la sua vescica non era completamente vuota dopo avere urinato?">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Nessuna volta">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Una volta su 5 (<20%)">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Una volta su 3">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Circa la metà della volte (env. 50%)">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Piú della metà delle volte">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Quasi sempre">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Quante volte ha urinato meno di due ore dopo l’ultima minzione?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Le è mai capitato di dover urinare in più tempi?">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Quante volte ha avuto difficoltà a ritardare la minzione?">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Quanto spesso il getto urinario le è parso debole?">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Quante volte ha dovuto sforzarsi per iniziare a urinare?">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Quante volte la notte, in media, si è dovuto alzare per andare ad urinare?">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Mai">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Una volte">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Due volte">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Tre volte">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Quattro volte">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Cinque volte">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Se dovesse trascorrere il resto della sua vita con la condizione urinaria attuale, come si sentirebbe?">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Bene">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Soddisfatto">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Abbastanze soddisfatto">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Così Così">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Relativamente insoddisfatto">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Male">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Molto male">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Total Score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Tutti i dati si referiscono ale ultime 4 settimane.">
+					description = <"Tutti i dati si referiscono ale ultime 4 settimane.">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
+			>
+		>
+	>
