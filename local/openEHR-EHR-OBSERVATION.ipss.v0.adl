@@ -87,7 +87,7 @@ International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5e79b5da51a2cca859062ed6b811e402">
+		["MD5-CAM-1.0.1"] = <"98b502be4bc112990e637c57907d7e95">
 		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
 		["ip_acknowledgements"] = <"Public domain">
 	>
@@ -173,17 +173,6 @@ definition
 													5|[local::at0022]
 												}
 											}
-											ELEMENT[at0024] occurrences matches {0..1} matches {    -- If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?
-												value matches {
-													0|[local::at0025],
-													1|[local::at0026],
-													2|[local::at0027],
-													3|[local::at0028],
-													4|[local::at0029],
-													5|[local::at0030],
-													6|[local::at0031]
-												}
-											}
 										}
 									}
 									ELEMENT[at0023] occurrences matches {0..1} matches {    -- IPSS SumScore
@@ -193,12 +182,26 @@ definition
 											}
 										}
 									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- If you were to spend the rest of your life with your urinary condition the way it is now, how would you feel about that?
+										value matches {
+											0|[local::at0025],
+											1|[local::at0026],
+											2|[local::at0027],
+											3|[local::at0028],
+											4|[local::at0029],
+											5|[local::at0030],
+											6|[local::at0031]
+										}
+									}
 								}
 							}
 						}
 					}
 				}
 			}
+		}
+		protocol matches {
+			ITEM_TREE[at9001] matches {*}    -- Item tree
 		}
 	}
 
@@ -338,6 +341,10 @@ ontology
 					text = <"Tree">
 					description = <"@ internal @">
 				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
 			>
 		>
 		["en"] = <
@@ -472,6 +479,10 @@ ontology
 				>
 				["at0003"] = <
 					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"Item tree">
 					description = <"@ internal @">
 				>
 			>
@@ -610,6 +621,10 @@ ontology
 					text = <"Tree">
 					description = <"@ internal @">
 				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
+					description = <"@ internal @">
+				>
 			>
 		>
 		["it"] = <
@@ -744,6 +759,10 @@ ontology
 				>
 				["at0003"] = <
 					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at9001"] = <
+					text = <"*Item tree (en)">
 					description = <"@ internal @">
 				>
 			>
