@@ -87,7 +87,7 @@ International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"98b502be4bc112990e637c57907d7e95">
+		["MD5-CAM-1.0.1"] = <"494a8761d8b17150c9cadcd46a1983e7">
 		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
 		["ip_acknowledgements"] = <"Public domain">
 	>
@@ -175,7 +175,7 @@ definition
 											}
 										}
 									}
-									ELEMENT[at0023] occurrences matches {0..1} matches {    -- IPSS SumScore
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Total Score
 										value matches {
 											DV_COUNT matches {
 												magnitude matches {|0..35|}
@@ -322,7 +322,7 @@ ontology
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"IPSS SumScore">
+					text = <"Total Score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -462,7 +462,7 @@ ontology
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"IPSS SumScore">
+					text = <"Total Score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -602,7 +602,7 @@ ontology
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"IPSS SumScore">
+					text = <"Total Score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -742,7 +742,7 @@ ontology
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"IPSS SumScore">
+					text = <"Total Score">
 					description = <"">
 				>
 				["at9000"] = <
