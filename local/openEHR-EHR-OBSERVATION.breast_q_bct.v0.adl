@@ -48,43 +48,43 @@ description
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"Zur Erfassung der Antworten auf die Items des BREAST-Q Moduls für brusterhaltende Therapie (BCT) und der entsprechenden patientenberichteten Skalenwerte.">
+			purpose = <"Zur Erfassung der Antworten und der entsprechenden Skalenwerte des BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT) Moduls.">
 			keywords = <"BREAST-Q, BREAST-Q BCT, Brusterhaltende Therapie, Brustkrebs, Patientenberichtetes Ergebnis, Lebensqualität, Brustchirurgie", ...>
-			copyright = <"© openEHR Foundation, © 2009, 2017 Memorial Sloan-Kettering Cancer Center, Memorial Hospital for Cancer and Allied Diseases, Sloan-Kettering Institute for Cancer Research, and The University of British Columbia. All rights reserved.">
-			use = <"Zur Erfassung patientenberichteter Ergebnisse mit dem BREAST-Q Modul für brusterhaltende Therapie (BCT) verwenden. Das Modul enthält unabhängig voneinander verwendbare Skalen zu Bereichen wie Zufriedenheit mit der Brust, psychosoziales Wohlbefinden, sexuelles Wohlbefinden, körperliches Wohlbefinden, Zufriedenheit mit der Versorgung und Nebenwirkungen der Bestrahlung. Nach den BREAST-Q Bewertungsvorgaben berechnete Skalenwerte können dokumentiert werden. Die Verwendung des BREAST-Q setzt den Abschluss einer Lizenzvereinbarung voraus; die Nutzung in nicht-kommerzieller akademischer Forschung und in der klinischen Versorgung ist kostenlos, während die Nutzung durch gewinnorientierte Organisationen lizenzgebührenpflichtig ist.">
-			misuse = <"Nicht verwenden, sofern die anwendbare BREAST-Q-Lizenzvereinbarung und die urheberrechtlichen Bedingungen nicht eingehalten werden.">
+			copyright = <"© openEHR Foundation">
+			use = <"Zur Erfassung oder zum Austausch von Antwortdaten und Skalenwerten des BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT) Moduls in digitalen Systemen verwenden. Obwohl openEHR-Archetypen unter einer offenen Lizenz frei verfügbar sind, sind die in diesem Archetyp dargestellten spezifischen BREAST-Q-Inhalte urheberrechtlich geschützt. Jede Verwendung dieses Archetyps in Implementierungen muss den von den Rechteinhabern festgelegten Bedingungen entsprechen. Für die Verwendung des BREAST-Q ist eine Lizenzvereinbarung erforderlich. Die Nutzung für nicht-kommerzielle Forschung und klinische Praxis ist kostenfrei; die Nutzung durch gewinnorientierte Organisationen ist lizenzgebührenpflichtig. Copyright statement: Copyright © 2009 and 2017; rights held by Memorial Sloan Kettering Cancer Center and affiliated entities and The University of British Columbia. Copyright information: https://qportfolio.org/copyright-information/">
+			misuse = <"Nicht zur Erfassung von Daten anderer BREAST-Q-Module, einschliesslich Mastektomie oder Rekonstruktion, verwenden. Für diese Anwendungsfälle ist der Archetyp des entsprechenden BREAST-Q-Moduls zu verwenden.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record responses to the BREAST-Q Breast Conserving Therapy (BCT) module items and the corresponding patient-reported outcome scale scores.">
+			purpose = <"To record responses and corresponding scale scores for the BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT) module.">
 			keywords = <"BREAST-Q, BREAST-Q BCT, Breast conserving therapy, Breast cancer, Patient reported outcome, Quality of life, Breast surgery", ...>
-			copyright = <"© openEHR Foundation, © 2009, 2017 Memorial Sloan-Kettering Cancer Center, Memorial Hospital for Cancer and Allied Diseases, Sloan-Kettering Institute for Cancer Research, and The University of British Columbia. All rights reserved.">
-			use = <"Use to record patient-reported outcomes collected with the BREAST-Q Breast Conserving Therapy (BCT) module. The module includes independently functioning scales covering domains such as satisfaction with breasts, psychosocial well-being, sexual well-being, physical well-being, satisfaction with care, and adverse effects of radiation. Record scale scores calculated according to the BREAST-Q scoring instructions. Use of the BREAST-Q requires completion of a licensing agreement; non-profit academic research and clinical care use is free of charge, while for-profit use is subject to a licensing fee.">
-			misuse = <"Not to be used unless the applicable BREAST-Q licensing agreement and copyright conditions are observed.">
+			copyright = <"© openEHR Foundation">
+			use = <"Use to record or exchange response data and scale scores for the BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT) module in digital systems. While openEHR archetypes are all freely available under an open license, the specific BREAST-Q content represented in this archetype is copyright protected. Any use of this archetype within implementations must comply with the terms established by the copyright owners. A BREAST-Q licensing agreement is required. Non-profit research and clinical practice use is available without charge; for-profit use is subject to a licensing fee. Copyright statement: Copyright © 2009 and 2017; rights held by Memorial Sloan Kettering Cancer Center and affiliated entities and The University of British Columbia. Copyright information: https://qportfolio.org/copyright-information/">
+			misuse = <"Not to be used to record data from other BREAST-Q modules, including Mastectomy or Reconstruction. Use the corresponding BREAST-Q module archetype for those use cases.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
-			purpose = <"Registrare le risposte agli item del modulo BREAST-Q Terapia conservativa della mammella (BCT) e i corrispondenti punteggi delle scale degli esiti riferiti dalla paziente.">
+			purpose = <"Registrare le risposte e i corrispondenti punteggi di scala del modulo BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT).">
 			keywords = <"BREAST-Q, BREAST-Q BCT, Terapia conservativa della mammella, Cancro della mammella, Esito riferito dal paziente, Qualità di vita, Chirurgia mammaria", ...>
-			copyright = <"© openEHR Foundation, © 2009, 2017 Memorial Sloan-Kettering Cancer Center, Memorial Hospital for Cancer and Allied Diseases, Sloan-Kettering Institute for Cancer Research, and The University of British Columbia. All rights reserved.">
-			use = <"Utilizzare per registrare gli esiti riferiti dalle pazienti raccolti con il modulo BREAST-Q Terapia conservativa della mammella (BCT). Il modulo comprende scale indipendenti relative a domini quali soddisfazione per la mammella, benessere psicosociale, benessere sessuale, benessere fisico, soddisfazione per le cure ed effetti avversi della radioterapia. Possono essere registrati i punteggi delle scale calcolati secondo le istruzioni di scoring BREAST-Q. L'uso del BREAST-Q richiede la sottoscrizione di un accordo di licenza; l'uso nella ricerca accademica senza scopo di lucro e nell'assistenza clinica è gratuito, mentre l'uso da parte di organizzazioni a scopo di lucro è soggetto a un costo di licenza.">
-			misuse = <"Non utilizzare senza rispettare l'accordo di licenza BREAST-Q applicabile e le condizioni di copyright.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utilizzare per registrare o scambiare, nei sistemi digitali, i dati delle risposte e i punteggi di scala del modulo BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT). Sebbene gli archetipi openEHR siano liberamente disponibili con una licenza aperta, il contenuto specifico BREAST-Q rappresentato in questo archetipo è protetto da copyright. Qualsiasi uso di questo archetipo nelle implementazioni deve rispettare le condizioni stabilite dai titolari dei diritti. L’uso del BREAST-Q richiede un accordo di licenza. L’uso per ricerca non profit e pratica clinica è gratuito; l’uso a scopo di lucro è soggetto a una tariffa di licenza. Copyright statement: Copyright © 2009 and 2017; rights held by Memorial Sloan Kettering Cancer Center and affiliated entities and The University of British Columbia. Copyright information: https://qportfolio.org/copyright-information/">
+			misuse = <"Non utilizzare per registrare dati di altri moduli BREAST-Q, inclusi Mastectomy o Reconstruction. Per tali casi d’uso utilizzare l’archetipo del modulo BREAST-Q corrispondente.">
 		>
 		["fr"] = <
 			language = <[ISO_639-1::fr]>
-			purpose = <"Enregistrer les réponses aux items du module BREAST-Q Traitement conservateur du sein (BCT) et les scores correspondants des échelles de résultats rapportés par les patientes.">
+			purpose = <"Enregistrer les réponses et les scores d’échelle correspondants du module BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT).">
 			keywords = <"BREAST-Q, BREAST-Q BCT, Traitement conservateur du sein, Cancer du sein, Résultat rapporté par le patient, Qualité de vie, Chirurgie mammaire", ...>
-			copyright = <"© openEHR Foundation, © 2009, 2017 Memorial Sloan-Kettering Cancer Center, Memorial Hospital for Cancer and Allied Diseases, Sloan-Kettering Institute for Cancer Research, and The University of British Columbia. All rights reserved.">
-			use = <"Utiliser pour enregistrer les résultats rapportés par les patientes recueillis avec le module BREAST-Q Traitement conservateur du sein (BCT). Le module comprend des échelles indépendantes couvrant notamment la satisfaction vis-à-vis des seins, le bien-être psychosocial, le bien-être sexuel, le bien-être physique, la satisfaction à l'égard des soins et les effets indésirables de la radiothérapie. Les scores d'échelle calculés selon les instructions de cotation BREAST-Q peuvent être enregistrés. L'utilisation du BREAST-Q nécessite la conclusion d'un accord de licence ; son utilisation dans la recherche académique à but non lucratif et les soins cliniques est gratuite, tandis que l'utilisation par des organismes à but lucratif est soumise à des frais de licence.">
-			misuse = <"Ne pas utiliser sans respecter l'accord de licence BREAST-Q applicable et les conditions de droit d'auteur.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utiliser pour enregistrer ou échanger, dans des systèmes numériques, les données de réponse et les scores d’échelle du module BREAST-Q® | Breast Cancer: Breast Conserving Therapy (BCT). Bien que les archétypes openEHR soient librement disponibles sous une licence ouverte, le contenu BREAST-Q spécifique représenté dans cet archétype est protégé par le droit d’auteur. Toute utilisation de cet archétype dans une implémentation doit respecter les conditions établies par les titulaires des droits. L’utilisation du BREAST-Q nécessite un accord de licence. L’utilisation pour la recherche à but non lucratif et la pratique clinique est gratuite; l’utilisation à but lucratif est soumise à des frais de licence. Copyright statement: Copyright © 2009 and 2017; rights held by Memorial Sloan Kettering Cancer Center and affiliated entities and The University of British Columbia. Copyright information: https://qportfolio.org/copyright-information/">
+			misuse = <"Ne pas utiliser pour enregistrer les données d’autres modules BREAST-Q, notamment Mastectomy ou Reconstruction. Utiliser l’archétype du module BREAST-Q correspondant pour ces cas d’utilisation.">
 		>
 	>
 	other_details = <
-		["licence"] = <"Except where otherwise noted, this archetype is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
 		["references"] = <"Pusic AL, Klassen AF, Scott AM, Klok JA, Cordeiro PG, Cano SJ. Development of a new patient-reported outcome measure for breast surgery: the BREAST-Q. Plastic and Reconstructive Surgery. 2009;124(2):345-353. doi:10.1097/PRS.0b013e3181aee807.
 
-Q-Portfolio. BREAST-Q® | Breast Cancer: A User's Guide for Researchers and Clinicians. Available from: https://qportfolio.org/breast-q/breast-cancer/.
+Q-Portfolio. BREAST-Q® | Breast Cancer: A User’s Guide for Researchers and Clinicians. Available from: https://qportfolio.org/breast-q/breast-cancer/.
 
 Q-Portfolio. Copyright Information. Available from: https://qportfolio.org/copyright-information/.">
 		["current_contact"] = <"">
@@ -93,7 +93,7 @@ Q-Portfolio. Copyright Information. Available from: https://qportfolio.org/copyr
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"16a4edb3d943f499483db50b032b932e">
 		["build_uid"] = <"cda9592d-4cf9-41e6-91b5-1e287dc61629">
-		["ip_acknowledgements"] = <"The specific BREAST-Q content represented in this archetype is copyright protected and is not covered by the openEHR archetype licence. Use of the BREAST-Q requires completion of a licensing agreement and must comply with the terms established by the copyright owners. Non-profit academic research and clinical care use is free of charge; for-profit use is subject to a licensing fee. The BREAST-Q was authored by Andrea Pusic, Anne Klassen, and Stefan Cano. Copyright notice for the original BREAST-Q Breast Cancer scales (including Reconstruction, Mastectomy, Breast Conserving Therapy, and Expectations): © 2009, 2017 Memorial Sloan-Kettering Cancer Center, Memorial Hospital for Cancer and Allied Diseases, Sloan-Kettering Institute for Cancer Research, and The University of British Columbia. All rights reserved. BREAST-Q® is a U.S. registered trademark of Memorial Sloan-Kettering Cancer Center. Licensing and copyright information: https://qportfolio.org/copyright-information/.">
+		["ip_acknowledgements"] = <"The BREAST-Q patient-reported outcome measure was authored by Drs Andrea Pusic, Anne Klassen, and Stefan Cano.">
 	>
 
 definition
