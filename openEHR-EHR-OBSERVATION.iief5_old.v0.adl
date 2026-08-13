@@ -1,0 +1,757 @@
+archetype (adl_version=1.4; uid=c658b44a-84bb-43ae-b5a3-d5eccf091e41)
+	openEHR-EHR-OBSERVATION.iief5_old.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+		["fr"] = <
+			language = <[ISO_639-1::fr]>
+			author = <
+				["application"] = <"Adl Designer">
+			>
+			other_details = <
+				["notes"] = <"Generated automatically by Adl Designer">
+			>
+		>
+	>
+
+description
+	original_author = <
+		["date"] = <"2026-05-08">
+		["name"] = <"Johann Keller">
+		["organisation"] = <"x-tention Informationstechnologie AG">
+		["email"] = <"johann.keller@x-tention.ch">
+	>
+	lifecycle_state = <"unmanaged">
+	other_contributors = <"Sol Fustinana, University Hospital Basel, Switzerland","Olha Nikolaieva, University Hospital Basel, Switzerland","Maren Diepenbruck, University Hospital Basel, Switzerland">
+	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"Zur Erfassung der Antworten auf jedes der fünf Items des Fragebogens International Index of Erectile Function-5 (IIEF-5) sowie der berechneten Gesamtpunktzahl.">
+			keywords = <"IIEF-5, SHIM, Internationaler Index der erektilen Funktion, Erektile Dysfunktion, Sexuelle Funktion, Patientenberichtetes Ergebnis, Urologie", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Zur Dokumentation der vom Patienten berichteten erektilen Funktion verwenden. Jedes der fünf Fragebogenitems wird gemäß dem IIEF-5-Bewertungssystem bewertet und ergibt eine Gesamtpunktzahl von 5 bis 25, wobei niedrigere Werte auf eine schwerere erektile Dysfunktion hinweisen. Der IIEF-5 ist ein Screening- und Bewertungsinstrument und stellt für sich allein keine Diagnose dar. Diese Darstellung ist unter der Creative Commons Attribution-ShareAlike 4.0 International License lizenziert.">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To record the responses to each of the five items of the International Index of Erectile Function-5 (IIEF-5) questionnaire together with the calculated total score.">
+			keywords = <"IIEF-5, SHIM, International Index of Erectile Function, Erectile dysfunction, Sexual function, Patient reported outcome, Urology", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Use to document patient-reported erectile function. Each of the five questionnaire items is scored according to the IIEF-5 scoring system, producing a total score ranging from 5 to 25, with lower scores indicating more severe erectile dysfunction. The IIEF-5 is a screening and assessment instrument and does not by itself establish a diagnosis. This representation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.">
+		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			purpose = <"Registrare le risposte a ciascuno dei cinque item del questionario International Index of Erectile Function-5 (IIEF-5), insieme al punteggio totale calcolato.">
+			keywords = <"IIEF-5, SHIM, Indice Internazionale della Funzione Erettile, Disfunzione erettile, Funzione sessuale, Esito riferito dal paziente, Urologia", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Utilizzare per documentare la funzione erettile riferita dal paziente. Ciascuno dei cinque item del questionario è valutato secondo il sistema di punteggio dell'IIEF-5, producendo un punteggio totale compreso tra 5 e 25, in cui punteggi inferiori indicano una disfunzione erettile più grave. L'IIEF-5 è uno strumento di screening e valutazione e non consente, da solo, di stabilire una diagnosi. Questa rappresentazione è concessa con licenza Creative Commons Attribution-ShareAlike 4.0 International.">
+		>
+		["fr"] = <
+			language = <[ISO_639-1::fr]>
+			purpose = <"Enregistrer les réponses à chacun des cinq items du questionnaire International Index of Erectile Function-5 (IIEF-5) ainsi que le score total calculé.">
+			keywords = <"IIEF-5, SHIM, Indice international de la fonction érectile, Dysfonction érectile, Fonction sexuelle, Résultat rapporté par le patient, Urologie", ...>
+			copyright = <"© openEHR Foundation test">
+			use = <"Utiliser pour documenter la fonction érectile rapportée par le patient. Chacun des cinq items est coté selon le système de cotation IIEF-5, produisant un score total de 5 à 25, les scores les plus faibles indiquant une dysfonction érectile plus sévère. L'IIEF-5 est un instrument de dépistage et d'évaluation et ne permet pas, à lui seul, d'établir un diagnostic. Cette représentation est sous licence Creative Commons Attribution-ShareAlike 4.0 International.">
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["references"] = <"Rosen RC, Cappelleri JC, Smith MD, Lipsky J, Peña BM. Development and evaluation of an abridged, 5-item version of the International Index of Erectile Function (IIEF-5) as a diagnostic tool for erectile dysfunction. International Journal of Impotence Research. 1999;11(6):319-326.">
+		["current_contact"] = <"">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"165ecbe647b4bbcc06ab4016ed59fc16">
+		["build_uid"] = <"9cc46d45-b954-4441-93a2-648b4df628b1">
+		["ip_acknowledgements"] = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña.">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- iief5_old
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at9000] occurrences matches {0..1} matches {    -- Over the past 6 months
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at2000] occurrences matches {0..1} matches {    -- How do you rate your confidence that you could get and keep an erection?
+												value matches {
+													1|[local::at2001],
+													2|[local::at2002],
+													3|[local::at2003],
+													4|[local::at2004],
+													5|[local::at2005]
+												}
+											}
+											ELEMENT[at2006] occurrences matches {0..1} matches {    -- When you had erections with sexual stimulation, how often were your erections hard enough for penetration?
+												value matches {
+													1|[local::at2007],
+													2|[local::at2008],
+													3|[local::at2009],
+													4|[local::at2010],
+													5|[local::at2011]
+												}
+											}
+											ELEMENT[at2012] occurrences matches {0..1} matches {    -- During sexual intercourse, how often were you able to maintain your erection after you had penetrated (entered) your partner?
+												value matches {
+													1|[local::at2013],
+													2|[local::at2014],
+													3|[local::at2015],
+													4|[local::at2016],
+													5|[local::at2017]
+												}
+											}
+											ELEMENT[at2018] occurrences matches {0..1} matches {    -- During sexual intercourse, how difficult was it to maintain your erection to completion of intercourse?
+												value matches {
+													1|[local::at2019],
+													2|[local::at2020],
+													3|[local::at2021],
+													4|[local::at2022],
+													5|[local::at2023]
+												}
+											}
+											ELEMENT[at2024] occurrences matches {0..1} matches {    -- When you attempted sexual intercourse, how often was it satisfactory for you?
+												value matches {
+													1|[local::at2025],
+													2|[local::at2026],
+													3|[local::at2027],
+													4|[local::at2028],
+													5|[local::at2029]
+												}
+											}
+										}
+									}
+									ELEMENT[at2030] occurrences matches {0..1} matches {    -- Total score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"iief5_old">
+					description = <"Der International Index of Erectile Function-5 (IIEF-5), auch Sexual Health Inventory for Men (SHIM) genannt, ist ein validierter patientenberichteter Fragebogen zur Beurteilung der erektilen Funktion und zum Screening auf erektile Dysfunktion.">
+				>
+				["at2000"] = <
+					text = <"Wie hoch schätzen Sie Ihre Zuversichtlichkeit ein, bei sexueller Erregung eine Erektion zu bekommen und aufrecht erhalten zu können?">
+					description = <"">
+				>
+				["at2001"] = <
+					text = <"sehr niedrig">
+					description = <"">
+				>
+				["at2002"] = <
+					text = <"niedrig">
+					description = <"">
+				>
+				["at2003"] = <
+					text = <"moderat">
+					description = <"">
+				>
+				["at2004"] = <
+					text = <"hoch">
+					description = <"">
+				>
+				["at2005"] = <
+					text = <"sehr hoch">
+					description = <"">
+				>
+				["at2006"] = <
+					text = <"Wie häufig war Ihre Erektion nach sexueller Stimulation hart genug für eine Penetration?">
+					description = <"">
+				>
+				["at2007"] = <
+					text = <"fast nie/ nie">
+					description = <"">
+				>
+				["at2008"] = <
+					text = <"selten(seltener als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2009"] = <
+					text = <"manchmal(etwa in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2010"] = <
+					text = <"meistens(häufiger als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2011"] = <
+					text = <"fast immer/ immer">
+					description = <"">
+				>
+				["at2012"] = <
+					text = <"Wie häufig konnten Sie Ihre Erektion beim Geschlechtsverkehr aufrecht erhalten, nachdem Sie in Ihre Partnerin eingedrungen waren?">
+					description = <"">
+				>
+				["at2013"] = <
+					text = <"fast nie/ nie">
+					description = <"">
+				>
+				["at2014"] = <
+					text = <"selten(seltener als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2015"] = <
+					text = <"manchmal(etwa in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2016"] = <
+					text = <"meistens(häufiger als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2017"] = <
+					text = <"fast immer/ immer">
+					description = <"">
+				>
+				["at2018"] = <
+					text = <"Wie schwierig ist es für Sie, Ihre Erektion bis zum Ende des Geschlechtsverkehrs aufrecht zu erhalten?">
+					description = <"">
+				>
+				["at2019"] = <
+					text = <"extrem schwierig">
+					description = <"">
+				>
+				["at2020"] = <
+					text = <"sehr schwierig">
+					description = <"">
+				>
+				["at2021"] = <
+					text = <"schwierig">
+					description = <"">
+				>
+				["at2022"] = <
+					text = <"wenig schwierig">
+					description = <"">
+				>
+				["at2023"] = <
+					text = <"überhaupt nicht schwierig">
+					description = <"">
+				>
+				["at2024"] = <
+					text = <"Wie oft würden Sie den Geschlechtsverkehr mit Ihrer Partnerin als befriedigend einstufen?">
+					description = <"">
+				>
+				["at2025"] = <
+					text = <"fast nie/ nie">
+					description = <"">
+				>
+				["at2026"] = <
+					text = <"selten(seltener als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2027"] = <
+					text = <"manchmal(etwa in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2028"] = <
+					text = <"meistens(häufiger als in der Hälfte der Fälle)">
+					description = <"">
+				>
+				["at2029"] = <
+					text = <"fast immer/ immer">
+					description = <"">
+				>
+				["at2030"] = <
+					text = <"Total score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Während der vergangenen 6 Monate:">
+					description = <"Während der vergangenen 6 Monate:">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"iief5_old">
+					description = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), is a validated patient-reported outcome questionnaire used to assess erectile function and screen for erectile dysfunction.">
+				>
+				["at2000"] = <
+					text = <"How do you rate your confidence that you could get and keep an erection?">
+					description = <"">
+				>
+				["at2001"] = <
+					text = <"Very low">
+					description = <"">
+				>
+				["at2002"] = <
+					text = <"Low">
+					description = <"">
+				>
+				["at2003"] = <
+					text = <"Moderate">
+					description = <"">
+				>
+				["at2004"] = <
+					text = <"High">
+					description = <"">
+				>
+				["at2005"] = <
+					text = <"Very High">
+					description = <"">
+				>
+				["at2006"] = <
+					text = <"When you had erections with sexual stimulation, how often were your erections hard enough for penetration?">
+					description = <"">
+				>
+				["at2007"] = <
+					text = <"Almost never/never">
+					description = <"">
+				>
+				["at2008"] = <
+					text = <"A few times (much less than half the time)">
+					description = <"">
+				>
+				["at2009"] = <
+					text = <"Sometimes (about half the time)">
+					description = <"">
+				>
+				["at2010"] = <
+					text = <"Most times (much more than half the time)">
+					description = <"">
+				>
+				["at2011"] = <
+					text = <"Almost always / always">
+					description = <"">
+				>
+				["at2012"] = <
+					text = <"During sexual intercourse, how often were you able to maintain your erection after you had penetrated (entered) your partner?">
+					description = <"">
+				>
+				["at2013"] = <
+					text = <"Almost never/never">
+					description = <"">
+				>
+				["at2014"] = <
+					text = <"A few times (much less than half the time)">
+					description = <"">
+				>
+				["at2015"] = <
+					text = <"Sometimes (about half the time)">
+					description = <"">
+				>
+				["at2016"] = <
+					text = <"Most times (much more than half the time)">
+					description = <"">
+				>
+				["at2017"] = <
+					text = <"Almost always / always">
+					description = <"">
+				>
+				["at2018"] = <
+					text = <"During sexual intercourse, how difficult was it to maintain your erection to completion of intercourse?">
+					description = <"">
+				>
+				["at2019"] = <
+					text = <"Extremely difficult">
+					description = <"">
+				>
+				["at2020"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at2021"] = <
+					text = <"Difficult">
+					description = <"">
+				>
+				["at2022"] = <
+					text = <"Slightly difficult">
+					description = <"">
+				>
+				["at2023"] = <
+					text = <"Not difficult">
+					description = <"">
+				>
+				["at2024"] = <
+					text = <"When you attempted sexual intercourse, how often was it satisfactory for you?">
+					description = <"">
+				>
+				["at2025"] = <
+					text = <"Almost never/never">
+					description = <"">
+				>
+				["at2026"] = <
+					text = <"A few times (much less than half the time)">
+					description = <"">
+				>
+				["at2027"] = <
+					text = <"Sometimes (about half the time)">
+					description = <"">
+				>
+				["at2028"] = <
+					text = <"Most times (much more than half the time)">
+					description = <"">
+				>
+				["at2029"] = <
+					text = <"Almost always / always">
+					description = <"">
+				>
+				["at2030"] = <
+					text = <"Total score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Over the past 6 months">
+					description = <"Over the past 6 months">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["fr"] = <
+			items = <
+				["at0000"] = <
+					text = <"iief5_old">
+					description = <"L'International Index of Erectile Function-5 (IIEF-5), également appelé Sexual Health Inventory for Men (SHIM), est un questionnaire validé rapporté par le patient utilisé pour évaluer la fonction érectile et dépister la dysfonction érectile.">
+				>
+				["at2000"] = <
+					text = <"A quel point étiez-vous sûr de pouvoir avoir une érection et de la maintenir ?">
+					description = <"">
+				>
+				["at2001"] = <
+					text = <"Pas sûr du tout">
+					description = <"">
+				>
+				["at2002"] = <
+					text = <"Pas très sûr">
+					description = <"">
+				>
+				["at2003"] = <
+					text = <"Moyennement sûr">
+					description = <"">
+				>
+				["at2004"] = <
+					text = <"Sûr">
+					description = <"">
+				>
+				["at2005"] = <
+					text = <"Très sûr">
+					description = <"">
+				>
+				["at2006"] = <
+					text = <"Lorsque vous avez eu des érections à la suite de stimulations sexuelles, avec quelle fréquence votre  pénis a-t-il été suffisamment rigide (dur) pour permettre la pénétration ?">
+					description = <"">
+				>
+				["at2007"] = <
+					text = <"Presque jamais ou jamais">
+					description = <"">
+				>
+				["at2008"] = <
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
+					description = <"">
+				>
+				["at2009"] = <
+					text = <"Quelquefois (environ la moitié du temps)">
+					description = <"">
+				>
+				["at2010"] = <
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
+					description = <"">
+				>
+				["at2011"] = <
+					text = <"Presque tout le temps ou tout le temps">
+					description = <"">
+				>
+				["at2012"] = <
+					text = <"Lorsque vous avez essayé d'avoir des rapports sexuels, avec quelle fréquence avez-vous pu rester  en érection après avoir pénétré votre partenaire ?">
+					description = <"">
+				>
+				["at2013"] = <
+					text = <"Presque jamais ou jamais">
+					description = <"">
+				>
+				["at2014"] = <
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
+					description = <"">
+				>
+				["at2015"] = <
+					text = <"Quelquefois (environ la moitié du temps)">
+					description = <"">
+				>
+				["at2016"] = <
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
+					description = <"">
+				>
+				["at2017"] = <
+					text = <"Presque tout le temps ou tout le temps">
+					description = <"">
+				>
+				["at2018"] = <
+					text = <"Pendant vos rapports sexuels, à quel point vous a-t-il été difficile de rester en érection jusqu'à la fin  de ces rapports ?">
+					description = <"">
+				>
+				["at2019"] = <
+					text = <"Extrêmement difficile">
+					description = <"">
+				>
+				["at2020"] = <
+					text = <"Très difficile">
+					description = <"">
+				>
+				["at2021"] = <
+					text = <"Difficile">
+					description = <"">
+				>
+				["at2022"] = <
+					text = <"Un peu difficile">
+					description = <"">
+				>
+				["at2023"] = <
+					text = <"Pas difficile">
+					description = <"">
+				>
+				["at2024"] = <
+					text = <"Lorsque vous avez essayé d'avoir des rapports sexuels, avec quelle fréquence en avez-vous été  satisfait ?">
+					description = <"">
+				>
+				["at2025"] = <
+					text = <"Presque jamais ou jamais">
+					description = <"">
+				>
+				["at2026"] = <
+					text = <"Rarement (beaucoup moins que la moitié du temps)">
+					description = <"">
+				>
+				["at2027"] = <
+					text = <"Quelquefois (environ la moitié du temps)">
+					description = <"">
+				>
+				["at2028"] = <
+					text = <"La plupart du temps (beaucoup plus que la moitié du temps)">
+					description = <"">
+				>
+				["at2029"] = <
+					text = <"Presque tout le temps ou tout le temps">
+					description = <"">
+				>
+				["at2030"] = <
+					text = <"Total score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Au court des 6 derniers mois :">
+					description = <"Au court des 6 derniers mois :">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+		["it"] = <
+			items = <
+				["at0000"] = <
+					text = <"iief5_old">
+					description = <"L'International Index of Erectile Function-5 (IIEF-5), noto anche come Sexual Health Inventory for Men (SHIM), è un questionario validato riferito dal paziente utilizzato per valutare la funzione erettile e per lo screening della disfunzione erettile.">
+				>
+				["at2000"] = <
+					text = <"Come è stata la sua capacità di raggiungere e mantenere l'erezione?">
+					description = <"">
+				>
+				["at2001"] = <
+					text = <"molto bassa">
+					description = <"">
+				>
+				["at2002"] = <
+					text = <"bassa">
+					description = <"">
+				>
+				["at2003"] = <
+					text = <"moderata">
+					description = <"">
+				>
+				["at2004"] = <
+					text = <"alta">
+					description = <"">
+				>
+				["at2005"] = <
+					text = <"molto alta">
+					description = <"">
+				>
+				["at2006"] = <
+					text = <"Dopo la stimolazione sessuale quanto spesso hai raggiunto un'erezione sufficiente alla penetrazione?">
+					description = <"">
+				>
+				["at2007"] = <
+					text = <"quasi mai o mai">
+					description = <"">
+				>
+				["at2008"] = <
+					text = <"poche volte (molto meno della metà delle volte)">
+					description = <"">
+				>
+				["at2009"] = <
+					text = <"qualche volta (circa la metà delle volte)">
+					description = <"">
+				>
+				["at2010"] = <
+					text = <"la maggior parte delle volte (più della metà delle volte)">
+					description = <"">
+				>
+				["at2011"] = <
+					text = <"quasi sempre o sempre">
+					description = <"">
+				>
+				["at2012"] = <
+					text = <"Durante il rapporto sessuale quanto spesso è riuscito a mantenere l'erezione dopo la penetrazione?">
+					description = <"">
+				>
+				["at2013"] = <
+					text = <"quasi mai o mai">
+					description = <"">
+				>
+				["at2014"] = <
+					text = <"poche volte (molto meno della metà delle volte)">
+					description = <"">
+				>
+				["at2015"] = <
+					text = <"qualche volta (circa la metà delle volte)">
+					description = <"">
+				>
+				["at2016"] = <
+					text = <"la maggior parte delle volte (più della metà delle volte)">
+					description = <"">
+				>
+				["at2017"] = <
+					text = <"quasi sempre o sempre">
+					description = <"">
+				>
+				["at2018"] = <
+					text = <"Durante il rapporto sessuale quanto è stato difficile mantenere l'erezione fino alla fine del rapporto?">
+					description = <"">
+				>
+				["at2019"] = <
+					text = <"estremamente difficile">
+					description = <"">
+				>
+				["at2020"] = <
+					text = <"molto difficile">
+					description = <"">
+				>
+				["at2021"] = <
+					text = <"difficile">
+					description = <"">
+				>
+				["at2022"] = <
+					text = <"abbastanza difficile">
+					description = <"">
+				>
+				["at2023"] = <
+					text = <"facile">
+					description = <"">
+				>
+				["at2024"] = <
+					text = <"Quando ha avuto un rapporto sessuale quanto spesso ha provato piacere?">
+					description = <"">
+				>
+				["at2025"] = <
+					text = <"quasi mai o mai">
+					description = <"">
+				>
+				["at2026"] = <
+					text = <"poche volte (molto meno della metà delle volte)">
+					description = <"">
+				>
+				["at2027"] = <
+					text = <"qualche volta (circa la metà delle volte)">
+					description = <"">
+				>
+				["at2028"] = <
+					text = <"la maggior parte delle volte (più della metà delle volte)">
+					description = <"">
+				>
+				["at2029"] = <
+					text = <"quasi sempre o sempre">
+					description = <"">
+				>
+				["at2030"] = <
+					text = <"Total score">
+					description = <"">
+				>
+				["at9000"] = <
+					text = <"Negli ultimi sei mesi:">
+					description = <"Negli ultimi sei mesi:">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+	>
