@@ -48,31 +48,51 @@ description
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
-			purpose = <"Zur Erfassung der Antworten auf die einzelnen Items des Internationalen Prostata-Symptom-Scores (IPSS), des Gesamtsymptomscores und der separat bewerteten Lebensqualität.">
+			purpose = <"Zur Erfassung der Antworten auf die einzelnen Items des International Prostate Symptom Score (I-PSS/IPSS), des Gesamtsymptomscores und der separat bewerteten Lebensqualität.">
 			keywords = <"I-PSS, IPSS, Internationaler Prostata-Symptom-Score, Prostata, Benigne Prostatahyperplasie, BPH, Untere Harnwegssymptome", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Zur Dokumentation des Internationalen Prostata-Symptom-Scores (IPSS) verwenden. Die sieben Symptomitems erfassen unvollständige Blasenentleerung, erhöhte Miktionsfrequenz, intermittierenden Harnfluss, Harndrang, schwachen Harnstrahl, Pressen beim Wasserlassen und Nykturie. Die Symptomitems ergeben zusammen einen Gesamtsymptomscore von 0 bis 35. Das Item zur Lebensqualität wird separat erfasst und nicht in den Gesamtsymptomscore einbezogen. Die at-Codes auf Ebene der Fragen sind, soweit zutreffend, an die im bestehenden openEHR-IPSS-Archetyp verwendeten Codes angeglichen, um die Konsistenz zwischen den Repräsentationen zu unterstützen; dieser Archetyp wurde im Übrigen unabhängig entwickelt.">
+			copyright = <"© openEHR Foundation">
+			use = <"Zur Erfassung und zum Austausch der Antworten und Ergebnisse des International Prostate Symptom Score (I-PSS/IPSS) in digitalen Systemen verwenden.
+
+Obwohl openEHR-Archetypen unter einer offenen Lizenz frei verfügbar sind, muss die Nutzung der I-PSS-Inhalte den jeweils geltenden Bedingungen der Rechteinhaber entsprechen. Nach den aktuellen Angaben von ePROVIDE sind abgeleitete Versionen urheberrechtlich durch den Verlag Wolters Kluwer geschützt und dürfen nur mit Genehmigung des Rechteinhabers verwendet werden. Dieser Archetyp enthält übersetzte Versionen; die erforderliche Genehmigung für diese abgeleiteten bzw. übersetzten Versionen muss daher vor Nutzung oder Veröffentlichung geklärt werden.
+
+Licensing information: https://eprovide.mapi-trust.org/instruments/international-prostate-symptom-score">
+			misuse = <"Nicht zur Dokumentation prostatabezogener Symptome ausserhalb des I-PSS verwenden; hierfür einen geeigneten Symptom-Archetyp verwenden.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record responses to the individual International Prostate Symptom Score (IPSS) items, the total symptom score, and the separate quality of life assessment.">
+			purpose = <"To record responses to the individual International Prostate Symptom Score (I-PSS/IPSS) items, the total symptom score, and the separate quality of life assessment.">
 			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostate, Benign prostatic hyperplasia, BPH, Lower urinary tract symptoms", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Use to document the International Prostate Symptom Score (IPSS). The seven symptom items assess incomplete emptying, frequency, intermittency, urgency, weak urinary stream, straining, and nocturia. Each symptom item contributes to a total symptom score ranging from 0 to 35. The quality of life item is recorded separately and is not included in the total symptom score. Question-level at-codes are aligned, where applicable, with those used in the existing openEHR IPSS archetype to support consistency between representations; this archetype was otherwise developed independently.">
+			copyright = <"© openEHR Foundation">
+			use = <"Use to record and exchange International Prostate Symptom Score (I-PSS/IPSS) responses and results in digital systems.
+
+While openEHR archetypes are freely available under an open licence, use of I-PSS content must comply with the applicable rights-holder conditions. Current ePROVIDE information states that derivative versions are copyrighted by the publisher Wolters Kluwer and require permission from the copyright holder. This archetype contains translated versions; permission for these derivative or translated versions therefore needs to be confirmed before use or publication.
+
+Licensing information: https://eprovide.mapi-trust.org/instruments/international-prostate-symptom-score">
+			misuse = <"Not to be used to record prostate-related symptoms outside the I-PSS; use an appropriate symptom archetype for this purpose.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
-			purpose = <"Registrare le risposte ai singoli item dell'International Prostate Symptom Score (IPSS), il punteggio totale dei sintomi e la valutazione separata della qualità di vita.">
+			purpose = <"Registrare le risposte ai singoli item dell'International Prostate Symptom Score (I-PSS/IPSS), il punteggio totale dei sintomi e la valutazione separata della qualità di vita.">
 			keywords = <"I-PSS, IPSS, International Prostate Symptom Score, Prostata, Iperplasia prostatica benigna, IPB, Sintomi delle basse vie urinarie", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Utilizzare per documentare l'International Prostate Symptom Score (IPSS). I sette item relativi ai sintomi valutano lo svuotamento incompleto della vescica, la frequenza minzionale, l'intermittenza del flusso, l'urgenza minzionale, la debolezza del getto urinario, lo sforzo durante la minzione e la nicturia. Gli item relativi ai sintomi producono un punteggio totale compreso tra 0 e 35. L'item relativo alla qualità di vita viene registrato separatamente e non è incluso nel punteggio totale dei sintomi. Ove applicabile, i codici at a livello delle domande sono allineati a quelli utilizzati nell'archetipo openEHR IPSS esistente per favorire la coerenza tra le rappresentazioni; il presente archetipo è stato per il resto sviluppato in modo indipendente.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utilizzare per registrare e scambiare in sistemi digitali le risposte e i risultati dell'International Prostate Symptom Score (I-PSS/IPSS).
+
+Sebbene gli archetipi openEHR siano liberamente disponibili con una licenza aperta, l'uso dei contenuti I-PSS deve rispettare le condizioni applicabili dei titolari dei diritti. Secondo le informazioni attuali di ePROVIDE, le versioni derivate sono protette dal diritto d'autore dell'editore Wolters Kluwer e richiedono l'autorizzazione del titolare dei diritti. Questo archetipo contiene versioni tradotte; l'autorizzazione per tali versioni derivate o tradotte deve pertanto essere verificata prima dell'uso o della pubblicazione.
+
+Licensing information: https://eprovide.mapi-trust.org/instruments/international-prostate-symptom-score">
+			misuse = <"Non utilizzare per registrare sintomi correlati alla prostata al di fuori dell'I-PSS; utilizzare a questo scopo un archetipo appropriato per i sintomi.">
 		>
 		["fr"] = <
 			language = <[ISO_639-1::fr]>
-			purpose = <"Enregistrer les réponses aux différents items de l'International Prostate Symptom Score (IPSS), le score total des symptômes et l'évaluation distincte de la qualité de vie.">
+			purpose = <"Enregistrer les réponses aux différents items de l'International Prostate Symptom Score (I-PSS/IPSS), le score total des symptômes et l'évaluation distincte de la qualité de vie.">
 			keywords = <"I-PSS, IPSS, Score international des symptômes prostatiques, Prostate, Hyperplasie bénigne de la prostate, HBP, Symptômes des voies urinaires basses", ...>
-			copyright = <"© openEHR Foundation test">
-			use = <"Utiliser pour documenter l'International Prostate Symptom Score (IPSS). Les sept items relatifs aux symptômes évaluent la vidange incomplète de la vessie, la fréquence des mictions, l'intermittence du jet, l'urgence mictionnelle, la faiblesse du jet urinaire, la poussée lors de la miction et la nycturie. Les items relatifs aux symptômes donnent un score total compris entre 0 et 35. L'item relatif à la qualité de vie est enregistré séparément et n'est pas inclus dans le score total des symptômes. Lorsque cela est applicable, les codes at au niveau des questions sont alignés sur ceux utilisés dans l'archétype openEHR IPSS existant afin de favoriser la cohérence entre les représentations ; cet archétype a par ailleurs été développé indépendamment.">
+			copyright = <"© openEHR Foundation">
+			use = <"Utiliser pour enregistrer et échanger dans des systèmes numériques les réponses et les résultats de l'International Prostate Symptom Score (I-PSS/IPSS).
+
+Bien que les archétypes openEHR soient librement disponibles sous une licence ouverte, l'utilisation du contenu I-PSS doit respecter les conditions applicables des titulaires de droits. Selon les informations actuelles d'ePROVIDE, les versions dérivées sont protégées par le droit d'auteur de l'éditeur Wolters Kluwer et nécessitent l'autorisation du titulaire des droits. Cet archétype contient des versions traduites ; l'autorisation pour ces versions dérivées ou traduites doit donc être vérifiée avant toute utilisation ou publication.
+
+Licensing information: https://eprovide.mapi-trust.org/instruments/international-prostate-symptom-score">
+			misuse = <"Ne pas utiliser pour enregistrer des symptômes liés à la prostate en dehors de l'I-PSS ; utiliser un archétype de symptôme approprié à cette fin.">
 		>
 	>
 	other_details = <
@@ -82,14 +102,16 @@ description
 
 Badía X, García-Losa M, Dal-Ré R. Ten-language translation and harmonization of the International Prostate Symptom Score: developing a methodology for multinational clinical trials. European Urology. 1997;31(2):129-140. doi:10.1159/000474438.
 
-International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1. Referenced only for alignment of corresponding question-level at-codes; the present archetype was developed independently.">
+Mapi Research Trust. International Prostate Symptom Score (I-PSS). ePROVIDE. Current copyright, permission and distribution information. https://eprovide.mapi-trust.org/instruments/international-prostate-symptom-score
+
+International Prostate Symptom Score (IPSS) openEHR archetype. openEHR Clinical Knowledge Manager. Archetype ID: openEHR-EHR-OBSERVATION.ipss.v1. Referenced only for alignment of corresponding question-level at-codes; the present archetype was otherwise developed independently.">
 		["current_contact"] = <"">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"5805ec9411b03bc63844cdd436e0002b">
 		["build_uid"] = <"d39107f2-ac49-40cb-8689-b9e9511b1832">
-		["ip_acknowledgements"] = <"Public domain">
+		["ip_acknowledgements"] = <"The International Prostate Symptom Score (I-PSS) is derived from the American Urological Association Symptom Index developed by Michael J. Barry and collaborators. Current permission and distribution information is provided through Mapi Research Trust/ePROVIDE. Current ePROVIDE information states that derivative versions are copyrighted by the publisher Wolters Kluwer and require permission from the copyright holder.">
 	>
 
 definition
