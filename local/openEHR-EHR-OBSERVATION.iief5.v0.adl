@@ -83,7 +83,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0cf14d4b6a2f52ea39385af84c9b925d">
+		["MD5-CAM-1.0.1"] = <"d02d1d0ad927f4b9f60d77843b8e7064">
 		["build_uid"] = <"9cc46d45-b954-4441-93a2-648b4df628b1">
 		["ip_acknowledgements"] = <"The International Index of Erectile Function-5 (IIEF-5), also known as the Sexual Health Inventory for Men (SHIM), was developed by Raymond C. Rosen, Allen R. Cappelleri, Ronald C. Smith, James Lipsky, and Benjamin M. Peña.">
 	>
@@ -146,7 +146,7 @@ definition
 											}
 										}
 									}
-									ELEMENT[at2030] occurrences matches {0..1} matches {    -- IIEF-5 SumScore
+									ELEMENT[at2030] occurrences matches {0..1} matches {    -- Total score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -289,7 +289,7 @@ ontology
 					description = <"">
 				>
 				["at2030"] = <
-					text = <"IIEF-5 SumScore">
+					text = <"Total score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -437,7 +437,7 @@ ontology
 					description = <"">
 				>
 				["at2030"] = <
-					text = <"IIEF-5 SumScore">
+					text = <"Total score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -585,7 +585,7 @@ ontology
 					description = <"">
 				>
 				["at2030"] = <
-					text = <"IIEF-5 SumScore">
+					text = <"Total score">
 					description = <"">
 				>
 				["at9000"] = <
@@ -733,7 +733,7 @@ ontology
 					description = <"">
 				>
 				["at2030"] = <
-					text = <"IIEF-5 SumScore">
+					text = <"Total score">
 					description = <"">
 				>
 				["at9000"] = <
